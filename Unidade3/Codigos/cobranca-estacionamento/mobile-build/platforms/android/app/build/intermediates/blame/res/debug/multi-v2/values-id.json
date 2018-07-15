@@ -1,0 +1,49 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/frr/qrcode/qr/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.3.0.aar/81b7e8e4d680ba83f49d26b4737ac9ec/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,293",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "109,156,288,397"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.1/Desenvolvimento_movel/publico/Unidade3/Codigos/cobranca-estacionamento/mobile/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.3.0.aar/81b7e8e4d680ba83f49d26b4737ac9ec/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,293",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "109,156,288,397"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.1/Desenvolvimento_movel/publico/Unidade3/Codigos/cobranca-estacionamento/mobile-build/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.3.0.aar/81b7e8e4d680ba83f49d26b4737ac9ec/res/values-id/values-id.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,293",
+                        "endColumns": "58,46,131,108",
+                        "endOffsets": "109,156,288,397"
+                    }
+                }
+            ]
+        }
+    ]
+}

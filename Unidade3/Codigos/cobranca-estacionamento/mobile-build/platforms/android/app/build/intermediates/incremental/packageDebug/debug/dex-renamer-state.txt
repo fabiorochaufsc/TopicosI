@@ -1,0 +1,4 @@
+#Fri Jun 15 16:52:22 BRT 2018
+base.0=/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.1/Desenvolvimento_movel/publico/Unidade3/Codigos/cobranca-estacionamento/mobile-build/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.1/Desenvolvimento_movel/publico/Unidade3/Codigos/cobranca-estacionamento/mobile-build/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

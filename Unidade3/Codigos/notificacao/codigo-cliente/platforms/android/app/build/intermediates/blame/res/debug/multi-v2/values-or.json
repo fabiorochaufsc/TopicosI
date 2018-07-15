@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/frr/Downloads/teste/fabio/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "map": [
+                {
+                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-15.0.2.aar/3fe73aa71eb2af4921a5719d66afd58f/res/values-or/values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "208,307,427",
+                        "endColumns": "98,119,97",
+                        "endOffsets": "306,426,524"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,265,389",
+                        "endColumns": "102,123,101",
+                        "endOffsets": "260,384,486"
+                    }
+                },
+                {
+                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/13e8ecd9fb6224b0e9ef3b1501568c1b/res/values-or/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "106",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/DISCIPLINAS_PUBLICO/TopicosI/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "map": [
+                {
+                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-15.0.2.aar/3fe73aa71eb2af4921a5719d66afd58f/res/values-or/values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "208,307,427",
+                        "endColumns": "98,119,97",
+                        "endOffsets": "306,426,524"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,265,389",
+                        "endColumns": "102,123,101",
+                        "endOffsets": "260,384,486"
+                    }
+                },
+                {
+                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/firebase-messaging-15.0.2.aar/13e8ecd9fb6224b0e9ef3b1501568c1b/res/values-or/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "106",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1092043943036",
+    "firebase_url": "https://fabio-notificacao.firebaseio.com",
+    "project_id": "fabio-notificacao",
+    "storage_bucket": "fabio-notificacao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092043943036:android:5b6105351b7ac69e",
+        "android_client_info": {
+          "package_name": "io.notificacao.fabio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092043943036-5jcpq3d6d2u03cq40mugeb2chra7p6qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAv8pL-lqe7M4Na3FjrCEP5H1xfD2dTDs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,100 @@
+<html>
+  <link rel="stylesheet" href="index.css">
+
+
+	<body>
+		Aplicacao colaborativa de desenho<br>
+    <div>
+      <canvas width="600px" height="300px" id="areaDesenho">
+      </canvas>
+    </div>
+    <br>
+    <button id="apaga">Apaga</button>
+    <input id="selecionaCor" type="color"/>
+    Espessura:<span id="valorEspessura"></span><input id="selecionaEspessura"  type="range" min="1" max="20">
+    
+	</body>
+
+  <script>
+      var desenha=false;
+      var cinicial={x:'',y:''};
+      var cfinal={x:'',y:''};
+      var vetor=[];
+      var selecionaCor = O("selecionaCor");
+      var selecionaEspessura =O("selecionaEspessura");
+      var areaDesenho = O("areaDesenho");
+      var ctx=areaDesenho.getContext("2d");
+      var rect = areaDesenho.getBoundingClientRect();
+      var apaga = O("apaga");
+ctx.lineJoin = 'round';
+
+      function O (msg)
+      {
+        return document.getElementById(msg);
+      }
+      apaga.addEventListener("click", function (e) {
+          ctx.clearRect(0, 0, areaDesenho.width, areaDesenho.height);
+
+
+
+      },false);
+      selecionaEspessura.addEventListener("change", function (e) {
+          let v = this.value;
+            valorEspessura.innerHTML=v;
+             
+             ctx.lineWidth = v;
+
+
+      },false);
+      selecionaCor.addEventListener("change", function (e) {
+          let cor = this.value;
+            ctx.strokeStyle = cor;
+
+      },false);
+
+     
+
+      areaDesenho.addEventListener("mousedown", function (e) {
+         desenha = true;
+         cinicial.x = e.clientX  - rect.left;
+         cinicial.y = e.clientY  - rect.top;
+         ctx.beginPath();
+           ctx.moveTo(cinicial.x,cinicial.y);
+           ctx.lineTo(cinicial.x,cinicial.y);
+         ctx.stroke();
+          vetor = [];
+          vetor.push({x:cinicial.x,y:cinicial.y});
+      }, false);
+
+      areaDesenho.addEventListener("mouseup", function (e) {
+        console.log("liberado");
+        desenha=false;
+        console.log(vetor);
+        vetor=[];
+      }, false);
+
+       areaDesenho.addEventListener("mousemove", function (e) {
+         cfinal.x = e.clientX  - rect.left;
+         cfinal.y = e.clientY  - rect.top;
+          
+        if (desenha)
+        {   
+            vetor.push({x:cfinal.x,y:cfinal.y});
+  ctx.lineCap = 'round';
+
+              ctx.beginPath();
+
+                ctx.moveTo(cinicial.x,cinicial.y);
+
+                ctx.lineTo(cfinal.x,cfinal.y);
+              ctx.stroke();
+              
+        }
+        cinicial.x = cfinal.x;
+              cinicial.y = cfinal.y;
+      }, false);
+
+
+      
+  </script>
+</html>

@@ -1,0 +1,29 @@
+  SENHA:<input type="password" id="senha"><button id="envia">ENVIA</button>
+
+
+  <script>
+    function init(dados)
+    {
+
+    }
+    O('envia').addEventListener('click',function(){
+      let senha = O('senha').value;
+      //POSTA(JSON.stringify({senha:senha}));
+      envia ('LOGIN',JSON.stringify({senha:senha}),function(resposta){
+        switch (resposta.tipo)
+        {
+            case 'FALHALOGIN':
+                  alert('falha no login');
+                  break;
+            case 'SUCESSOLOGIN':
+                  alert('sucesso no login');
+                  carrega('logados.html',resposta.dado);
+                  break;
+            case 'FALHAREMOVE':
+                  alert('erro removendo sensor');
+                  break;
+        }
+      })
+      
+    },false);
+  </script>

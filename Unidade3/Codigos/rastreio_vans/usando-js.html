@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+     
+      #map {
+        height: 50%;
+        width: 50%;
+         
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="reconnecting-websocket.min.js"></script>
+
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var map, marker;
+      var x = -49.4685078;
+      var websocket;
+
+function startConnection() {
+  websocket = new ReconnectingWebSocket("ws://localhost:8080")
+  websocket.onopen = function(evt) {
+              onOpen(evt)
+  }
+  
+  websocket.onclose = function(evt) {
+              onClose(evt)
+  }
+  websocket.onmessage = function(evt) {
+        onMessage(evt)
+  }
+}
+
+function onOpen(evt) {
+  console.log('conectou')
+}
+
+function onClose(evt) {
+          console.log('onClose')
+
+}
+
+function onMessage(evt) {
+  var msg = evt.data
+  msg = JSON.parse(msg);
+  
+  console.log('recebeu msg')
+  switch (msg.tipo) {
+    case 'GPS':
+      try {
+          console.log('recebeu GPS',msg.valor);
+          let x, y;
+          x = parseFloat(msg.valor.lat);
+          y = parseFloat(msg.valor.lng);
+        marker.setPosition({lat:x, lng:y});
+      }
+      catch (e){}
+    
+    break;
+  }        
+}
+
+      function O(msg) {
+          return document.getElementById(msg);
+      }
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -28.9505558, lng: -49.4685078},
+          zoom: 16,
+          mapTypeId:'satellite'
+        });
+
+        marker = new google.maps.Marker({
+          position: {lat: -28.9505558, lng: -49.4685078},
+          map: map,
+          title: 'Hello World!'
+        });
+        marker.setMap(map);
+
+        
+      }
+      startConnection();
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=SUACHAVEEEEEEEEEEEEEEEEEEEEEE&callback=initMap"
+    async defer></script>
+  </body>
+</html>

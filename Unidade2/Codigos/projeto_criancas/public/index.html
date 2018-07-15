@@ -1,0 +1,273 @@
+<html>
+  <link rel="stylesheet" href="index.css">
+
+
+	<body>
+		  <div class="center">
+        Aplicacao colaborativa de desenho<br>
+      </div>
+    <div class="center">
+      <canvas width="500px" height="500px" id="areaDesenho">
+      </canvas>
+    </div>
+    <br>
+    <button id="apaga">Apaga</button>
+    <input id="selecionaCor" type="color"/>
+    Espessura:<span id="valorEspessura"></span><input id="selecionaEspessura"  type="range" min="1" max="20">
+    <br>
+    <input type="text"     id="nome" /> 
+    <input type="password" id="password" /> 
+    
+    <button id="conecta" >LOGIN </button>
+	</body>
+
+<script type="text/javascript" src="reconnecting-websocket.min.js"></script>
+
+  <script>
+  		//let dados = {nome:'frr',cpf:'1213',idade:60};
+  		//localStorage.setItem('DADOS', JSON.stringify(dados) );
+  		//console.log('aqui');
+  		
+      var desenha = false;
+      var cinicial = {
+          x: '',
+          y: ''
+      };
+      var cfinal = {
+          x: '',
+          y: ''
+      };
+      var vetor = [];
+      var selecionaCor = O("selecionaCor");
+      var selecionaEspessura = O("selecionaEspessura");
+      var areaDesenho = O("areaDesenho");
+      var ctx = areaDesenho.getContext("2d");
+      var rect = areaDesenho.getBoundingClientRect();
+      var apaga = O("apaga");
+      var servidorWebserver;
+      var websocket;
+      var botaoConecta = O('conecta');
+      var id = O('nome');
+      var meuID;
+      var escalaX;
+      var escalaY;
+      var password = O('password');
+
+
+
+
+      function startConnection(id) {
+          meuID = id;
+          websocket = new ReconnectingWebSocket(servidorWebserver)
+          websocket.onopen = function(evt) {
+              onOpen(evt)
+          }
+          websocket.onclose = function(evt) {
+              onClose(evt)
+          }
+          websocket.onmessage = function(evt) {
+              onMessage(evt)
+          }
+      }
+
+      function onOpen(evt) {
+          console.log('onOpen')
+          let MSG = {
+              tipo: 'LOGIN',
+              valor: meuID
+          };
+          websocket.send(JSON.stringify(MSG))
+      }
+
+      function onClose(evt) {
+          console.log('onClose')
+
+      }
+
+      function onMessage(evt) {
+          var msg = evt.data
+          msg = JSON.parse(msg);
+          switch (msg.tipo) {
+              case 'ERRO':
+                  alert(msg.valor);
+					websocket.close(0);
+                  break;
+              case 'APAGA':
+                  ctx.clearRect(0, 0, areaDesenho.width, areaDesenho.height);
+
+                  break;
+              case 'ESPESSURA':
+                  selecionaEspessura.value = msg.valor;
+                  ctx.lineWidth = msg.valor;
+                  valorEspessura.innerHTML = msg.valor;
+                  break;
+              case 'COR':
+                  ctx.strokeStyle = msg.valor;
+                  selecionaCor.value = msg.valor;
+              case 'DESENHO':
+                  let xi = msg.valor.xi;
+                  let xf = msg.valor.xf;
+                  let yi = msg.valor.yi;
+                  let yf = msg.valor.yf;
+
+                  ctx.beginPath();
+
+                  ctx.moveTo(xi, yi);
+                  ctx.lineTo(xf, yf);
+                  ctx.stroke();
+                  break;
+
+          }
+          console.log('Recebeu msg');
+      }
+
+      function O(msg) {
+          return document.getElementById(msg);
+      }
+
+function verificaBDLocal ()
+{
+	let lido = localStorage.getItem ('DADOS');
+	if (lido!= undefined)
+	{
+		let lido2  = JSON.parse(lido);
+		console.log(lido2);
+		 startConnection(lido2);
+		
+	}
+	else {
+		alert("sem dados do usuario, precisa fazer login");
+	}
+	
+
+}
+
+      // **************************** Associa eventos *********************
+
+      botaoConecta.addEventListener('click', function() {
+
+          let dadosUsuario = {ID:id.value, password:password.value};
+
+          startConnection(dadosUsuario);
+          dadosUsuario = JSON.stringify(dadosUsuario);
+          localStorage.setItem('DADOS',dadosUsuario);
+
+      }, false);
+      apaga.addEventListener("click", function(e) {
+          let MSG = {
+              tipo: 'APAGA',
+              valor: ''
+          };
+          websocket.send(JSON.stringify(MSG));
+
+
+      }, false);
+      selecionaEspessura.addEventListener("change", function(e) {
+          let v = this.value;
+          let MSG = {
+              tipo: 'ESPESSURA',
+              valor: v
+          }
+          websocket.send(JSON.stringify(MSG));
+
+
+      }, false);
+      selecionaCor.addEventListener("change", function(e) {
+          let cor = this.value;
+          let MSG = {
+              tipo: 'COR',
+              valor: cor
+          }
+          websocket.send(JSON.stringify(MSG));
+
+      }, false);
+
+
+      areaDesenho.addEventListener("touchend", function(e) {
+          var touch = e.touches[0];
+          var mouseEvent = new MouseEvent("mouseup", {
+              clientX: touch.clientX,
+              clientY: touch.clientY
+          });
+          areaDesenho.dispatchEvent(mouseEvent);
+      }, false);
+
+      areaDesenho.addEventListener("touchstart", function(e) {
+          var touch = e.touches[0];
+          var mouseEvent = new MouseEvent("mousedown", {
+              clientX: touch.clientX,
+              clientY: touch.clientY
+          });
+          areaDesenho.dispatchEvent(mouseEvent);
+      }, false);
+
+      areaDesenho.addEventListener("touchmove", function(e) {
+          var touch = e.touches[0];
+          var mouseEvent = new MouseEvent("mousemove", {
+              clientX: touch.clientX,
+              clientY: touch.clientY
+          });
+          areaDesenho.dispatchEvent(mouseEvent);
+      }, false);
+
+
+      areaDesenho.addEventListener("mousedown", function(e) {
+          desenha = true;
+          cinicial.x = e.layerX;
+          cinicial.y = e.layerY;
+
+          let MSG = {
+              tipo: 'DESENHO',
+              valor: {
+                  xi: cinicial.x,
+                  yi: cinicial.y,
+                  xf: cinicial.x,
+                  yf: cinicial.y
+              }
+          };
+
+          websocket.send(JSON.stringify(MSG));
+
+      }, false);
+
+      areaDesenho.addEventListener("mouseup", function(e) {
+          desenha = false;
+          vetor = [];
+      }, false);
+
+      areaDesenho.addEventListener("mousemove", function(e) {
+          cfinal.x = e.layerX;
+          cfinal.y = e.layerY;
+
+          if (desenha) {
+
+              let MSG = {
+                  tipo: 'DESENHO',
+                  valor: {
+                      xi: cinicial.x,
+                      yi: cinicial.y,
+                      xf: cfinal.x,
+                      yf: cfinal.y
+                  }
+              };
+
+              websocket.send(JSON.stringify(MSG));
+
+
+          }
+          cinicial.x = cfinal.x;
+          cinicial.y = cfinal.y;
+      }, false);
+
+      servidorWebserver = servidorWebserver = 'ws://' + window.location.hostname + ':8080';
+
+      escalaX = parseInt(window.innerWidth / 500);
+      escalaY = parseInt(window.innerHeight / 500);
+      areaDesenho.height = 500 * escalaY;
+      areaDesenho.width = 500 * escalaX;
+      ctx.lineJoin = 'round';
+      ctx.lineCap = 'round';
+      
+      verificaBDLocal();
+  </script>
+</html>

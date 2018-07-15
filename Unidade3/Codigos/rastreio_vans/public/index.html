@@ -1,0 +1,39 @@
+
+<html>
+
+<body>
+	Entre com lat: <input id="latitude"> <br>
+	Entre com lng: <input id="longitude"> <br>
+	<button id="envia"> ENVIA</button>
+<body>
+<script>
+	var SERVIDOR = 'http://'+window.location.hostname+":3000/";
+	
+
+	function submete (msg) {
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				console.log('recebeu resposta');
+			}
+		};
+		console.log(SERVIDOR+"/GPS?"+msg);
+		xhttp.open("GET", SERVIDOR+"GPS?"+msg, true);
+		xhttp.send();
+	}
+
+	
+	function O(id)
+	{
+		return document.getElementById(id);
+	}
+	O('envia').addEventListener('click', function ()
+	{
+		let lat  = O('latitude').value;
+		let long = O('longitude').value;
+		let msg = "lat="+lat+"&"+"long="+long;
+		submete(msg);
+	}, false);
+</script>
+
+</html>

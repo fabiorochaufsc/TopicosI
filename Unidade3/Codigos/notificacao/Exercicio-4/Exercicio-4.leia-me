@@ -1,0 +1,6 @@
+Crie uma aplicação node chamada envia.js que envia uma mensagem para uma aplicação rodando num Android específico ou ainda manda mensagens para todos. O destinatário da mensagem deve ser o endereco que foi capturado e mostrado na tela no Exercício-3.
+
+1) Para isso instale o pacote para enviar mensagens usando o firebase
+	npm install firebase-admin --save
+	
+2) Acesse o firebase, vá ate project settings

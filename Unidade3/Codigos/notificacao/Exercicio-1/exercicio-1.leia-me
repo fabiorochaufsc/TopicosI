@@ -1,0 +1,12 @@
+1. criar um projetocordova
+2. criar um projeto no firebase - https://console.firebase.google.com/
+3. fazer download do google-services.json
+4. Copiar o  google-services.json para o diretorio  root do projeto cordova
+5. Adicione  platform android
+6. adicione o plugin plugin cordova-plugin-firebase - link[1] 
+7. Instale a aplicação em tablets/telefones
+8. Use o console do firebase para enviar notificacoes. Essas notificacoes serão recebidas por todos os dispositivos Android 
+
+
+
+[1]-https://github.com/arnesson/cordova-plugin-firebase

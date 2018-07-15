@@ -1,0 +1,330 @@
+:root {
+  --maisescuro:#046f4b;
+  --borda: #007fa0;
+  --texto: #007fa0;
+  --botao :#c8c6c6;
+  --coropcoesmenu:#3a4040;
+  --corbotaonegativo: #007fa0;
+  --corbotaopositivo: #71a4bd;
+  
+  --corseparador: #515657;
+
+  --fundo:#f6eeee;
+
+  --middledarkBackground:rgb(199, 207, 219);
+  --lightBackground: white;
+  --darkBackground:  #7b7b7b;
+  
+  --corbotoes:#8CD790;
+  --cortextobotoes:black;
+  --fundoclaro:#dfdfdf;
+}
+
+ html,body {
+     margin: 0 0 0 0;
+     height: 100%;         
+     font-family: "Helvetica", sans-serif;
+      background-color: var(--fundo);;
+}
+  
+
+.dialog {
+  width: 100% !important;
+}
+.dialog .content {
+  position: relative;
+  max-height: 100%;
+}
+.app-page {
+ background-color:var(--fundo);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.app-page.app-active {
+  visibility: visible;
+  z-index: 2;
+}
+
+
+
+ #canvas-holder {
+     text-align:center;
+     display:block;
+}
+
+
+
+.btn-remove {
+  
+}
+.icones{
+  margin-top: 5px;
+  width:36px;
+  height:36px;
+       vertical-align: middle;
+ 
+}
+
+
+select {
+  border:1px solid var(--borda);;
+  background-color: white;
+  
+
+     -webkit-border-radius:3px;
+     border-radius:3px;
+     margin-bottom:5px;
+}
+
+
+
+
+/* BARRA DA APLICACAO */
+ .header-bar .title {
+     z-index: 21;
+     color: #007fa0;  
+     height: 52px;
+     line-height: 52px;
+     vertical-align: middle;
+     text-align: center;
+     background-color: white;
+}
+
+/* Cor do icone*/
+.header-bar .btn {
+  color: #757575;  
+}
+/* Cor do  X  (close) */
+.side-panel .header-bar .btn {
+  color: #757575;  
+}
+
+/* Cor titulo do menu */
+.side-panel .header-bar .title {
+  color: #007fa0;
+    text-align: center;
+    text-decoration: none;
+     /*border:1px solid #585858;
+     */
+     background-color: var(--fundo);
+
+}
+/*
+ * COR DA BARRA VERTICAL DO  MENU
+ */
+.side-panel {
+
+   background-color: var(--fundo);
+
+   
+}
+/*
+ * COR  DO  MENU
+ */
+.side-panel .header-bar {
+  background-color: blue;
+}
+/* COR DO SEPARADOR DAS OPCOES DO MENU*/
+.side-panel .list li {
+  border: 1px solid var(--corseparador);;
+}
+/* COR DAS OPCOES DO MENU*/
+.side-panel .list a,
+.side-panel .list .title,
+.side-panel .list .body {
+  color: white;  
+  /* text-transform: uppercase;*/
+  font-size:115%;
+  background-color:var(--coropcoesmenu);
+}
+
+
+
+ p{
+     text-align: justify;
+    /* font-family: "Montserrat", sans-serif;*/
+     font-size: 130%;
+    
+}
+
+ .destaque {
+ margin-top: 16px;
+      margin-left: 0px;
+
+}
+
+  input[type="date"], input[type="email"], input[type="text"],input[type="number"], input[type="password"],input[type="time"], textarea {
+     border:1px solid var(--borda);;
+     -webkit-border-radius:3px;
+     border-radius:3px;
+     margin-bottom:5px;
+     background-color: white;
+}
+input.edita[type="date"], input.edita[type="email"], input.edita[type="text"],input.edita[type="number"], input.edita[type="password"],input.edita[type="time"], textarea.edita {
+       margin-left: 0px;
+       color:black;
+  background-color: lightblue;
+ }
+
+ .padded-list img{
+     width:32px;
+     height:32px;
+}
+
+.campos {
+  border:1px solid var(--borda);;
+    border-radius:8px;
+     margin-top:2%;
+     background-color: white;
+     font-weight: normal ;
+}
+
+
+.basico {
+     /*box-shadow:2px 2px 2px #888;*/
+      margin: 5px 5px 5px 5px;
+       background-color: var(--fundoclaro);
+         padding-left:  0.5em;
+
+  background-size: 10px 10px, 10px 10px, 100% 100%;
+  background-position: 1px 1px, 0px 0px, center center;
+   border-radius:3px;
+   color:#7b7b7b;
+  top: 0;
+}
+
+.menuIcon {
+     vertical-align:middle;
+     margin-right:5px; 
+}
+ .list li {
+     display: block;
+     width: 100%;
+     float: left;
+     border-bottom: 1px;
+
+}
+
+ .list li a {
+     display: block;
+     width: 100%;
+     float: left;
+     font-size: 1em;
+     color: white;
+     padding: .6em 1em;
+     text-decoration: none;
+     background-color: gray;
+}
+
+ .list li:last-of-type {
+     border-bottom: 1px solid white;
+}
+.negative {
+  text-transform: uppercase;
+  color:var(--cortextobotoes);
+
+  box-shadow: 
+  0 1px 2px #fff, /*bottom external highlight*/
+  0 -1px 1px #666, /*top external shadow*/ 
+  inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ 
+  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+  background-color:var(--corbotaonegativo) !important;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+}
+.negative.btn-flat {
+
+  text-transform: uppercase;
+
+  box-shadow: 
+  0 1px 2px #fff, /*bottom external highlight*/
+  0 -1px 1px #666, /*top external shadow*/ 
+  inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ 
+  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+  background-color:var(--darkBackground) !important;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color:var(--cortextobotoes);
+
+}
+/* BOTOES */
+.primary {
+  text-transform: uppercase;
+
+  box-shadow: 
+  0 1px 2px #fff, /*bottom external highlight*/
+  0 -1px 1px #666, /*top external shadow*/ 
+  inset 0 -1px 1px rgba(0,0,0,0.5), /*bottom internal shadow*/ 
+  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+  background-color:var(--corbotaopositivo) !important;
+  color:var(--cortextobotoes);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-size: 120%;
+}
+
+
+
+.primary.btn-flat {
+   color: var(--cortextobotoes)  !important;
+  background-color: var(--corbotaopositivo) !important;;
+}
+
+
+ legend {
+  	     text-transform: uppercase;
+     padding: 0.4em 0.5em;
+     margin-bottom:1em;
+     border:1px solid  #7b7b7b;
+background-color:#fefefe;
+     /*color:#7b7b7b;*/
+     color: var(--texto);; 
+     font-size:80%;
+
+     text-align:left;
+     border-radius:8px;
+     -webkit-box-shadow: 2px 2px 2px #888;
+     box-shadow:2px 2px 2px #888;
+}
+
+ .fit-duplo {
+     flex-grow: 1;
+     width: 45%;
+     padding: 10px;
+     margin: 0 5px;
+}
+ .fit-triplo {
+     width: 33%;
+          padding: 7px 5px;
+
+     margin: 0 5px;
+}
+ .duplo {
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+}
+
+.triplo {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+ .panel, .panel-full {
+      background-color:  #eff0f2;
+}

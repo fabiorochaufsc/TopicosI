@@ -1,0 +1,53 @@
+
+
+<html>
+
+   <script>
+   function envia ()
+{
+
+	fazGet("/?coordenadaLat=123&coordenadaLong=456");
+}
+function status ()
+{
+		fazGet("/?status=ok");
+}
+function fazGet (valor) {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+		document.getElementById("mensagem").innerHTML = 		xhttp.responseText;
+		}
+	};
+	xhttp.open("GET", 'http://localhost:3000'+valor, true);
+	xhttp.send();
+}
+
+function ping ()
+{
+        fazGet("/?ping");
+}
+
+setInterval (ping,1000);
+
+
+   </script>
+
+	<body>
+	
+		<P>mensagens;..adasdasdasdasd
+		asdasdas
+		
+		asdasdasd
+		</P>
+		
+		<button onclick="envia();" > Envia Coordenadas </button>
+		<button onclick="status();" > Envia Status </button>
+		
+		<div id="status">
+			<span id="mensagem"></span>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HelloCordova</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    
+    <string name="google_app_id">1:1092043943036:android:5b6105351b7ac69e</string>
+    <string name="google_api_key">AIzaSyCAv8pL-lqe7M4Na3FjrCEP5H1xfD2dTDs</string>
+</resources>

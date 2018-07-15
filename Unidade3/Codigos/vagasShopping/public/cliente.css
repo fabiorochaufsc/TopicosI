@@ -1,0 +1,40 @@
+:root {
+ 
+  --fundo:#f6eeee;
+
+  --middledarkBackground:rgb(199, 207, 219);
+  
+  --fundoclaro:#dfdfdf;
+}
+
+#tabela{
+  display: inline-table;
+  width:100%;
+  border-collapse: separate;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+     font-size: 3vh;
+     vertical-align: middle;
+     margin: 0 0 0 0;
+     
+     width:100%;
+     background-color:white;
+}
+ #tabela th, td {
+     text-align:center;
+     vertical-align:middle;
+     padding: 10px 0px 10px ;
+     margin: 0 0 0 0;
+     border:1px solid var(--fundoclaro);;
+
+    }
+ #tabela tr:nth-child(odd) td{
+     background-color: var(--middleBackground);
+
+
+}
+ #tabela tr:nth-child(even) td{
+     background-color: var(--fundo);
+
+
+}

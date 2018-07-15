@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"বিবিধ"</string>
+    <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"অব্যাহত ৰাখক"</string>
+    <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"পূৰ্বদৰ্শন ম’ড আপডেট কৰা হৈছে৷"</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"পূৰ্বদৰ্শন"</string>
+</resources>

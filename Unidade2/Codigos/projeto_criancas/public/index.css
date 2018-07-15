@@ -1,0 +1,16 @@
+html, body
+{
+	width:  100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#areaDesenho
+{
+	background-color: yellow;
+	touch-action: none;
+}
+
+.center {
+   text-align:center;
+    }

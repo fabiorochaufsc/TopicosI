@@ -1,0 +1,141 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-geolocation@4.0.1",
+        "scope": null,
+        "escapedName": "cordova-plugin-geolocation",
+        "name": "cordova-plugin-geolocation",
+        "rawSpec": "4.0.1",
+        "spec": "4.0.1",
+        "type": "version"
+      },
+      "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/DISCIPLINAS_PUBLICO/TopicosI/Unidade3/Codigos/prefeitura/prefeitura"
+    ]
+  ],
+  "_from": "cordova-plugin-geolocation@4.0.1",
+  "_id": "cordova-plugin-geolocation@4.0.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-geolocation",
+  "_nodeVersion": "8.2.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-geolocation-4.0.1.tgz_1514690805550_0.5462430170737207"
+  },
+  "_npmUser": {
+    "name": "macdonst",
+    "email": "simon.macdonald@gmail.com"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-geolocation@4.0.1",
+    "scope": null,
+    "escapedName": "cordova-plugin-geolocation",
+    "name": "cordova-plugin-geolocation",
+    "rawSpec": "4.0.1",
+    "spec": "4.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-geolocation/-/cordova-plugin-geolocation-4.0.1.tgz",
+  "_shasum": "4703fa649d2405d25a9a732c99ebf868754a2c04",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-geolocation@4.0.1",
+  "_where": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/DISCIPLINAS_PUBLICO/TopicosI/Unidade3/Codigos/prefeitura/prefeitura",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://issues.apache.org/jira/browse/CB"
+  },
+  "cordova": {
+    "id": "cordova-plugin-geolocation",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Geolocation Plugin",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4703fa649d2405d25a9a732c99ebf868754a2c04",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-geolocation/-/cordova-plugin-geolocation-4.0.1.tgz"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova-android": ">=6.3.0"
+      },
+      "5.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-geolocation#readme",
+  "keywords": [
+    "cordova",
+    "geolocation",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "macdonst",
+      "email": "simon.macdonald@gmail.com"
+    },
+    {
+      "name": "bowserj",
+      "email": "bowserj@apache.org"
+    },
+    {
+      "name": "purplecabbage",
+      "email": "purplecabbage@gmail.com"
+    },
+    {
+      "name": "filmaj",
+      "email": "maj.fil@gmail.com"
+    },
+    {
+      "name": "shazron",
+      "email": "shazron@gmail.com"
+    },
+    {
+      "name": "csantanapr",
+      "email": "csantana23@gmail.com"
+    },
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-geolocation",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-geolocation.git"
+  },
+  "scripts": {
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
+    "test": "npm run eslint"
+  },
+  "version": "4.0.1"
+}

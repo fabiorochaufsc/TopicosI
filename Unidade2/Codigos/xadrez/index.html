@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<img id="scream" style="display: none;" width="220" height="277"
+src="peca.png" alt="The Scream">
+
+<canvas id="myCanvas" width="1000" height="1000"
+style="border:2px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+ 
+  let DESLOCAMENTO=50;
+ let x=DESLOCAMENTO;
+function desenhaTabuleiro (ctx)
+{
+  let cor = "blue;"
+  let T=100;
+
+
+  for (let linhas=0; linhas<8;linhas++)
+  {
+      if (cor=="gray") cor = "blue";
+       else cor = "gray"
+    for (let colunas=0; colunas <8; colunas++)
+    {
+
+       ctx.fillStyle=cor;
+       ctx.fillRect(colunas*T+DESLOCAMENTO,linhas*T+DESLOCAMENTO,T,T);
+       if (cor=="gray") cor = "blue";
+       else cor = "gray"
+    }
+  }
+
+}
+window.onload = function() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("scream");
+    let st="ABCDEFGH";
+    let st2="12345678"
+     ctx.font = "30px Arial";
+     for (let colunas=0;colunas<8;colunas++)
+      ctx.strokeText(st.charAt(colunas),colunas*100+2*DESLOCAMENTO,50); 
+    for (let linhas=0;linhas<8;linhas++)
+      ctx.strokeText(st2.charAt(linhas),20,linhas*100+2*DESLOCAMENTO); 
+
+    setInterval(function(){
+        desenhaTabuleiro(ctx);
+        //ctx.clearRect(0,0,999,999);
+        ctx.drawImage(img, x, DESLOCAMENTO);
+        x=(x+100) % 800;
+
+
+    },2000);
+};
+</script>
+
+</body>
+</html>

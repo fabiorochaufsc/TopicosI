@@ -1,0 +1,2 @@
+teste o aplicativo usando os qrcodes criados em:
+https://davidshimjs.github.io/qrcodejs/

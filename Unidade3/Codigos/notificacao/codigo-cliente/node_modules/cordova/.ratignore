@@ -1,0 +1,5 @@
+appveyor.yml
+*.txt
+cordova.cmd
+coverage
+jasmine.json

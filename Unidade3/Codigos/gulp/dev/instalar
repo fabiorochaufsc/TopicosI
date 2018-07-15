@@ -1,0 +1,5 @@
+#!/bin/bash
+npm install gulp gulp-concat gulp-minify-css gulp-uglify --save-dev
+npm install gulp-livereload gulp-util gulp-jsbeautifier gulp-clean --save-dev
+npm install gulp-rename gulp-uglify-es pump gulp-replace-task moment --save-dev
+

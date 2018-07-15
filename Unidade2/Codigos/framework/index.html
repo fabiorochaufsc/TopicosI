@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta name="format-detection" content="telephone=no">
+      <meta name="msapplication-tap-highlight" content="no">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=10, minimum-scale=1, width=device-width">
+      <link rel="stylesheet" href="css/phonon.css">
+      <link rel="stylesheet" href="css/cliente.css">
+
+      <title>Minha querida Aplicação</title>
+   </head>
+   <body>
+      <div class="side-panel side-panel-left  " data-expose-aside="left" data-page="home" id="MENU">
+         <header class="header-bar">
+            <button class=" btn pull-right icon icon-close show-for-phone-only" data-side-panel-close="true"></button>
+            <div class="none">
+               <h1 class="title" >MEU MENU QUERIDO</h1>
+            </div>
+         </header>
+         <div class="content">
+            <ul class="list">
+               <li><a onclick="phonon.panel('#CONFIGURACOES').open();" class="padded-list"><img alt="settings" class="menuIcon" src="img/settings.svg">Configurações<i class="icon icon-arrow-forward pull-right "></i></a></li>
+               <li><a onclick="phonon.panel('#INFORMACOES').open();" class="padded-list"><img alt="information-outline" class="menuIcon" src="img/information-outline.svg">Sobre<i class="icon icon-arrow-forward pull-right "></i></a></li>
+            </ul>
+         </div>
+      </div>
+      <!-- *********************************************** -->
+      <home data-page="true">
+         <header class="header-bar">
+            <button class=" btn icon icon-menu pull-left show-for-phone-only" data-side-panel-id="MENU"></button>
+            <div class="center">
+               <h1 class="title">Querida Aplicacao</h1>
+            </div>
+         </header>
+         <div class="content">
+               <div class="teste">
+               <fieldset class="basico">
+                  <fieldset class="campos" name="Overview">
+                     <legend> Parte principal</legend>
+                     
+
+                   </fieldset>
+                   <fieldset class="campos" name="Overview">
+                     Outras informações
+                   </fieldset>
+               </fieldset>
+            </div>
+         </div>
+      </home>
+      <!--  ******************* INFORMACOES **************** -->
+      <div id="INFORMACOES" class="panel-full">
+         <header class="header-bar">
+            <h1 class="title">Sobre a APP</h1>
+         </header>
+         <div class="content">
+            <fieldset class="basico">
+               <fieldset class="campos" name="Overview">
+                  <p >Esse é o menu que fala sobre a APP</p>
+                  <hr>
+               </fieldset>
+               <div class="padded-full">
+                  <div class="duplo">
+                     <button id="botaoInformacoesRetorna" class=" fit-duplo primary" >Retorna</button>
+                  </div>
+               </div>
+            </fieldset>
+         </div>
+      </div>
+      <!-- *********************************************** -->
+      <!--  ******************* CONFIGURACOES **************** -->
+      <div id="CONFIGURACOES" class="panel-full">
+         <header class="header-bar">
+            <h1 class="title">Configurações</h1>
+         </header>
+         <div class="content">
+  
+            <fieldset class="basico">
+               <fieldset class="campos" name="Overview">
+                  Fala sobre a configuracao
+               </fieldset>
+               <div class="padded-full">
+                  <div class="duplo">
+                     <button id="botaoConfiguracoesRetorna" class=" fit-duplo primary" >Cancela</button>
+                     <button id="botaoConfiguracoesconfirma" class=" fit-duplo primary" >OK</button>
+                  </div>
+               </div>
+            </fieldset>
+         </div>
+      </div>
+     
+      <script type="text/javascript" src="cordova.js"></script>
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/phonon.js"></script>
+      <script src="js/index.js"></script>
+   </body>
+

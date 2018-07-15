@@ -1,0 +1,4 @@
+browserify         ex: browserify index.js > bundle.js  
+uglify-js          ex: uglifyjs --compress --mangle -- input.js
+clean-css-cli      npm install clean-css-cli -g
+ 				   cleancss -o estilo.min.css estilo.css 

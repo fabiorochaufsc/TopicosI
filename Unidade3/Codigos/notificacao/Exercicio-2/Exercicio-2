@@ -1,0 +1,5 @@
+
+Modifique o código do aplicativo cordova para que este mostre na tela com alert() o código único do dispositivo que foi recebido do firebase FCM. Para isso, leia a documentação do plugin (link[1]) e procure pelo método getToken().
+
+
+[1] https://github.com/arnesson/cordova-plugin-firebase

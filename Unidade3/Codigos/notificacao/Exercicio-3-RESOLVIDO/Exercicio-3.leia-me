@@ -1,0 +1,3 @@
+Crie um servidor WEB que escute a porta 3000 e receba requisições do tipo POST. Do outro lado (cliente) existirá um cliente Android que faz uma requisição POST com um  /token e nessa requisição a aplicação Android envia o seu codigo FCM.
+
+Ao receber o POST o servidor mostra na tela o codigo FCM (poderia tambem gravar num banco de dados).
