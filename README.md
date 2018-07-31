@@ -93,6 +93,11 @@ cleancss -o estilo.min.css estilo.css
 > ANDROID_PLATFORM_TOOLS="/home/USUARIO/Desenvolvimento/android/sdk/platform-tools"<br/>
 > PATH="$PATH:$ANDROID_HOME:$ANDROID_PLATFORM_TOOLS"
 
+### configurações do chrome 
+
+> /usr/bin/google-chrome-stable  --ignore-certificate-errors  --args --disable-web-security --user-data-dir 
+
+
 ---
 ![Referencias](https://github.com/fabiorochaufsc/fabiorochaufsc.github.io/blob/master/web/livros.png)
 ## Bibliografia
@@ -120,3 +125,7 @@ cleancss -o estilo.min.css estilo.css
 ## Links
 
 [Javascript - The World's Most Misunderstood Programing Language ](https://player.vimeo.com/video/101993282) 
+[Desenvolvimento de jogos para o Android](http://www.tricedesigns.com/2013/03/22/phonegap-legends-a-sample-game-app/)
+[Exemplo de Jogo](http://tricedesigns.com/portfolio/phonegap_legends/)
+[Emulador de Android - Rápido](https://www.genymotion.com/download/)
+[Virtual box - Lembre-se de instalar também o extension pack](https://www.virtualbox.org/wiki/Downloads)
