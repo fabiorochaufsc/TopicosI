@@ -1,5 +1,5 @@
 
-<img align="center" src="https://github.com/fabiorochaufsc/fabiorochaufsc.github.io/blob/master/web/mobile-app.png" alt="Logo">
+<img align="center" src="https://github.com/fabiorochaufsc/fabiorochaufsc.github.io/blob/master/web/introducao.jpg" alt="Logo">
 
 
 
