@@ -1,7 +1,0 @@
-
-Material disponível
-UNIDADE 1: INTRODUÇÃO [12 horas-aula] 
-
-Apresentação da disciplina, plano de ensino, forma de avaliação. 
-Visão da arquitetura a ser utilizada, softwares que serão utilizados. Máquina Virtual/Ambiente de desenvolvimento, instalação de softwares e preparação do ambiente de trabalho, Linux, servido
-res WEB (nginx), node, npm. 
