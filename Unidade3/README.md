@@ -11,7 +11,11 @@
 * Aplicações híbridas 
 * Framework Cordova, plugins, criação de projeto 
 * Exemplos de aplicações cordova 
-* Desenvolvimento de uma aplicação cordova para acessar um servidor usando AJAX e websockets 
+* Desenvolvimento de uma aplicação cordova para acessar um servidor usando AJAX e websockets #3
 
-## Links 
-[Livro de JavaScript gratuíto - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
+
+---
+### Dicas
+/usr/bin/google-chrome-stable  --ignore-certificate-errors  --args --disable-web-security --user-data-dir 
+
+

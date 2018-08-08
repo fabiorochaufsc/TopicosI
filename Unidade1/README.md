@@ -42,3 +42,6 @@ Instalação do MongoDB
 
 ## Links
 [Tutoriais de NodeJS](https://nodeschool.io/#workshoppers)
+
+## Vídeos
+[O que é **event loop**, o que são **callbacks** ?](https://youtu.be/8aGhZQkoFbQ)
