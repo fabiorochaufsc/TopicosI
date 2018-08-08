@@ -21,3 +21,9 @@
 * Criando um servidor usando AJAX 
 * Banco de dados MongoDB, BD orientado a documento, operações mais comuns 
 * Gerenciando aplicações com o PM2 
+
+## Links 
+[Livro de JavaScript gratuíto - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
+
+## Vídeos
+[O que é **event loop**, o que são **callbacks** ?](https://youtu.be/8aGhZQkoFbQ)
