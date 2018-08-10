@@ -6,10 +6,19 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, resp) {
-
+	
     console.log('Dentro da primeira parte');
 
-    resp.write('rodou');
+   
+    return resp.end();
+});
+
+app.get('/hora', function(req, resp) {
+	var d = new Date();
+    console.log('Dentro da primeira da hora');
+
+	
+       resp.write(d.toString());
     return resp.end();
 });
 
