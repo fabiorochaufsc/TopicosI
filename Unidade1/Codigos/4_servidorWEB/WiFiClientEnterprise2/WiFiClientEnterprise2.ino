@@ -1,6 +1,7 @@
+// eduroam  WPA2 Enterprise, TTLS, no certificate, MSCHAPv2(no EAP)
 #include "esp_wpa2.h"
 #include <WiFi.h>
-#define EAP_IDENTITY "jonny" // ID eg: "jony"
+#define EAP_IDENTITY "jonny" // ID eg: "jonny" not jonny@univ.xx
 #define EAP_PASSWORD "passwd" 
 #define MENOPC       "ESP32 Board"
 
