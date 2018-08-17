@@ -23,6 +23,7 @@ app.listen(8080, function() {
 
 
 var vetorClientes = [];
+
 const wss = new WebSocket.Server({ port: 10000 },function (){
 	console.log('rodando');
 });
@@ -43,15 +44,56 @@ function broadcast (msg)
 }
 
 wss.on('connection', function connection(ws) {
+   ws.validado = false;
   vetorClientes.push(ws);
   console.log("QTD clientes:"+vetorClientes.length)
 
 
   ws.on('message', function (MSG) {
-  	var x = JSON.parse(MSG);
-    console.log('received: %s', x.valor);
-    var xx = {tipo:'todos',valor:x.valor};
-    broadcast(JSON.stringify(xx));
+    try {
+  	   var x = JSON.parse(MSG);
+       console.log('received: %s', x.valor);
+
+      switch (x.tipo)
+      {
+       case 'login':
+            ws.ID = x.valor;
+            let nomes=[];
+            for (let a = 0;a<vetorClientes.length;a++)
+              if (vetorClientes[a].validado==true)
+                {
+                  nomes.push(vetorClientes[a].ID);
+                }
+           // envia para o novoUsuario a listagem de todos os logados
+           var todos = {tipo:'todosUsuarios',valor:nomes};
+            ws.send(JSON.stringify(todos));
+
+
+            // Envia para todos os logados que um novo usuario conectou
+          
+           var xx = {tipo:'usuarioNovo',valor:x.valor};
+           
+
+           
+           broadcast(JSON.stringify(xx));
+           ws.validado = true;
+         break;
+       case 'MSG':
+            if (ws.validado)
+            {
+              var xx = {tipo:'texto',valor:x.valor};
+              broadcast(JSON.stringify(xx));
+            }
+            else ws.close();
+        break;
+       default:
+          ws.close();
+      } 
+    }catch(e)
+    {
+      ws.close();
+    }   
+    
 
   });
 
