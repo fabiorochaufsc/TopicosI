@@ -1,0 +1,22 @@
+#externo{
+
+}
+#texto {
+	background-color: yellow;
+	width:65%;
+	float:left;
+	height:200px;
+}
+
+
+#lista-conectados {
+	background-color: blue;
+		width:25%;
+		margin-left:70%;
+			height:200px;
+
+
+}
+#msg{
+	background-color: green;
+}

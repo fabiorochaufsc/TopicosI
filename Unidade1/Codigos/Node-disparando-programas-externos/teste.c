@@ -3,7 +3,8 @@
 int main (void)
 {
 	printf("Oi mundo\n");
-	while(1)
+	
+	while (1)
 	{
 		
 	}
