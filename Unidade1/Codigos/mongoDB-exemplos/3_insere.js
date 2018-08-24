@@ -10,7 +10,7 @@ var SHA256 = require("crypto-js/sha256");
   {
     MongoClient.connect(url, function (err, db) {
       if (err) throw err
-      var dbo = db.db("criancas");
+      var dbo = db.db("testeAULA");
       let ID       = process.argv[2];
       let nome     = process.argv[3]; 
       let password = process.argv[4]; 
