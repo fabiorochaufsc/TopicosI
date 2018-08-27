@@ -1,0 +1,49 @@
+<html>
+<style>
+
+:root {
+  --corTexto: blue;
+  --corBarra: #ff4545; 
+  --corOutro: yellow;
+  --larguraBarra:50%;
+}
+
+.texto {
+  color: var(--corTexto);
+}
+.outro {
+  color: var(--corOutro);
+}
+
+#desenhoBarra {
+  width: var(--larguraBarra);
+  height: 50px;
+  margin-top: 20px;
+  background-color: var(--corBarra)
+}
+</style>
+<body style="padding: 20px">
+
+  <div class="texto">Choose a footer <span class="outro">color:</span></div>
+
+  <div id="desenhoBarra"></div>
+
+
+    
+
+<script>
+	setInterval(function(){
+		document.querySelector(':root').style.setProperty('--corBarra', 'yellow');
+		document.querySelector(':root').style.setProperty('--corTexto', 'gray');
+
+	},3000);
+	setInterval(function(){
+		document.querySelector(':root').style.setProperty('--corOutro', 'pink');
+		document.querySelector(':root').style.setProperty('--larguraBarra', '10%');
+
+	},6000);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Getting server updates</h1>
+<div id="result"></div>
+
+<script>
+var es = new EventSource("http://localhost:8080/sse");
+es.onmessage = function(ev) {
+    alert(ev.data); //will output 'Hello world!'
+};
+</script>
+
+</body>
+</html>
