@@ -20,10 +20,7 @@ const wss = new WebSocket.Server({ port: 3000 },function (){
 });
 
 wss.on('connection', function (ws) {
-	//clientes.novo(ws);  		
 	PubSub.publish('novo',{socket:ws});
-
-
 	
 	ws.on('message', function (message) {
 
