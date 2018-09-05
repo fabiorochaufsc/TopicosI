@@ -1,5 +1,6 @@
-const SSE = require("sse-node"),
-      app = require("express")();
+const SSE = require("sse-node");
+var express = require('express');
+var app = express();
  
 var vetorClientes=[];
 app.use(express.static(__dirname + '/public'));
