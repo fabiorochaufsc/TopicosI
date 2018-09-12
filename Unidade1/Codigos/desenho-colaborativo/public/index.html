@@ -40,7 +40,7 @@ document.body.addEventListener('mouseup',function(evento){
 	
 	     console.log('largou');
 
-	
+	enviaAJAX('COORDENADAS',(coordenadas));
 
 
     apertado=false;
@@ -63,23 +63,35 @@ document.getElementById('areaDesenho').addEventListener('mousemove',function(eve
 	
 });
 
-function envia (msg)
+function enviaAJAX (tipo,msg)
 {
 	var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            
+           
         }
     };
-    xhttp.open("GET", "http://localhost:8080/MSG?msg="+msg, true);
+    xhttp.open("GET", "http://localhost:8081/"+tipo+"?conteudo="+msg, true);
     xhttp.send();
 }
 
 
 var es = new EventSource("http://localhost:8080/registra");
+
+	es.onopen	  = function()
+	{
+		enviaAJAX('STATUS','');
+
+	};
 	es.onmessage = function(ev)
 	{
-    	
+    	var vet = JSON.parse(ev.data);
+    	ctx.moveTo(vet[0].x,vet[0].y);
+    	for (let x=1; x<vet.length;x++)
+    	{
+    			ctx.lineTo(vet[x].x,vet[x].y);
+    	}
+	 	ctx.stroke();
 	};
 </script>
 
