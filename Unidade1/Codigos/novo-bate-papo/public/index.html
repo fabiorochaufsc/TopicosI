@@ -4,9 +4,30 @@
 
 
 <h1>Getting server updates</h1>
+<input type="text" id='valorMSG'> <button id="envia">ENVIA</button>
+
 <div id="result"></div>
 
 <script>
+
+document.getElementById('envia').addEventListener('click', function(){
+	var valor = document.getElementById('valorMSG').value;
+	envia(valor);
+});
+
+function envia (msg)
+{
+	var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            
+        }
+    };
+    xhttp.open("GET", "http://localhost:8080/MSG?msg="+msg, true);
+    xhttp.send();
+}
+
+
 var es = new EventSource("http://localhost:8080/sse");
 	es.onmessage = function(ev)
 	{

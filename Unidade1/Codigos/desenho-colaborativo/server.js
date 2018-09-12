@@ -5,7 +5,7 @@ var app = express();
 var vetorClientes=[];
 app.use(express.static(__dirname + '/public'));
 
-app.get("/sse", (req, res) => {
+app.get("/registra", (req, res) => {
 	console.log('cliente novo se registrou');
 	var cliente = SSE(req, res);
 	cliente.onClose(() => console.log("Cliente desconectou"));

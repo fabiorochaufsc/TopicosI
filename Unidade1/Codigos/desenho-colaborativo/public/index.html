@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+#areaDesenho{
+	width:400px;
+	height:400px;
+	padding: 0;
+	margin:0;
+}
+</style>
+<body>
+
+
+<h1>Desenho colaborativo</h1>
+
+	<canvas width="400px" HEIGHT="400px" style="border:1px solid black" id='areaDesenho'>
+	</canvas>
+
+
+<script>
+
+var apertado=false;
+var coordenadas = [];
+	var c=document.getElementById("areaDesenho");
+	var ctx=c.getContext("2d");
+
+
+document.body.addEventListener('mousedown',function(evento){
+	
+coordenadas=[];
+apertado=true;
+	 var x = evento.clientX - ctx.canvas.offsetLeft;
+     var y = evento.clientY - ctx.canvas.offsetTop;
+     coordenadas.push({x:x,y:y});
+     console.log('apertou (x,y)=',x,y);
+});
+
+document.body.addEventListener('mouseup',function(evento){
+	
+	     console.log('largou');
+
+	
+
+
+    apertado=false;
+   	
+});
+
+
+document.getElementById('areaDesenho').addEventListener('mousemove',function(evento){
+	 if (apertado==true)
+	 {
+	 	var x = evento.clientX - ctx.canvas.offsetLeft;
+     	var y = evento.clientY - ctx.canvas.offsetTop;
+     	var tam = coordenadas.length;
+     	ctx.moveTo(coordenadas[tam-1].x,coordenadas[tam-1].y);
+	 	ctx.lineTo(x,y);
+	 	ctx.stroke();
+     	coordenadas.push({x:x,y:y});
+     }
+	
+	
+});
+
+function envia (msg)
+{
+	var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            
+        }
+    };
+    xhttp.open("GET", "http://localhost:8080/MSG?msg="+msg, true);
+    xhttp.send();
+}
+
+
+var es = new EventSource("http://localhost:8080/registra");
+	es.onmessage = function(ev)
+	{
+    	
+	};
+</script>
+
+</body>
+</html>
