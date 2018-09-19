@@ -1,0 +1,22 @@
+
+html
+   head
+     title= title
+   body
+    p exemplo de pagina22
+    h1= message
+
+
+    img.className#IdName(src="foto.png" alt="Image Title")
+
+    form(method='POST' action='/fazUpload' enctype="multipart/form-data")
+       div.form-group
+          label(for='nome') Nome:
+          input#nome.form-control(type='text', placeholder='Primeiro e último nome' name='nome')
+       div.form-group
+          label(for='email') Email:
+          input#email.form-control(type='email', placeholder='name@email.com' name='email')
+          input#filetoupload.form-control(type='file' name='filetoupload' )
+       button.btn.btn-primary(type='submit') ENVIA
+
+   
