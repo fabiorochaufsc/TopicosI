@@ -17,7 +17,7 @@
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play zerbitzuen bertsio berria behar da. Berehala eguneratuko da automatikoki."</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Ireki telefonoan"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Hasi saioa"</string>
-    <string msgid="669893613918351210" name="common_signin_button_text_long">"Hasi saioa Google-n"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Hasi saioa Google kontuarekin"</string>
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Askotarikoak"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Egin aurrera"</string>

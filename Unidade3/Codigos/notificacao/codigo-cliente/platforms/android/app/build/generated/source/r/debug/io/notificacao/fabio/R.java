@@ -364,65 +364,9 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 
-        0x7f010008, 0x7f010009
-      };
-    /**
-     * Attributes that can be used with a FontFamilyFont.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font io.notificacao.fabio:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle io.notificacao.fabio:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight io.notificacao.fabio:fontWeight}</code></td><td></td></tr>
-     * </table>
-     * @see #FontFamilyFont_font
-     * @see #FontFamilyFont_fontStyle
-     * @see #FontFamilyFont_fontWeight
-     */
-    public static final int[] FontFamilyFont={
-        0x7f010003, 0x7f01000a, 0x7f01000b
-      };
-    /**
-     * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#font}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name io.notificacao.fabio:font
-     */
-    public static final int FontFamilyFont_font=0;
-    /**
-     * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#fontStyle}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>italic</td><td>1</td><td></td></tr>
-     * <tr><td>normal</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name io.notificacao.fabio:fontStyle
-     */
-    public static final int FontFamilyFont_fontStyle=1;
-    /**
-     * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#fontWeight}
-     * attribute's value can be found in the {@link #FontFamilyFont} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name io.notificacao.fabio:fontWeight
-     */
-    public static final int FontFamilyFont_fontWeight=2;
+      0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 
+      0x7f010008, 0x7f010009
+    };
     /**
      * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
@@ -500,6 +444,62 @@ public final class R {
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
+     * Attributes that can be used with a FontFamilyFont.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font io.notificacao.fabio:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle io.notificacao.fabio:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight io.notificacao.fabio:fontWeight}</code></td><td></td></tr>
+     * </table>
+     * @see #FontFamilyFont_font
+     * @see #FontFamilyFont_fontStyle
+     * @see #FontFamilyFont_fontWeight
+     */
+    public static final int[] FontFamilyFont={
+      0x7f010003, 0x7f01000a, 0x7f01000b
+    };
+    /**
+     * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#font}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name io.notificacao.fabio:font
+     */
+    public static final int FontFamilyFont_font=0;
+    /**
+     * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>italic</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name io.notificacao.fabio:fontStyle
+     */
+    public static final int FontFamilyFont_fontStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name io.notificacao.fabio:fontWeight
+     */
+    public static final int FontFamilyFont_fontWeight=2;
+    /**
      * Attributes that can be used with a LoadingImageView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -515,8 +515,8 @@ public final class R {
      * @see #LoadingImageView_imageAspectRatioAdjust
      */
     public static final int[] LoadingImageView={
-        0x7f010001, 0x7f01000c, 0x7f01000d
-      };
+      0x7f010001, 0x7f01000c, 0x7f01000d
+    };
     /**
      * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
@@ -570,8 +570,8 @@ public final class R {
      * @see #SignInButton_scopeUris
      */
     public static final int[] SignInButton={
-        0x7f010000, 0x7f010002, 0x7f01000e
-      };
+      0x7f010000, 0x7f010002, 0x7f01000e
+    };
     /**
      * <p>This symbol is the offset where the {@link io.notificacao.fabio.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.

@@ -22,5 +22,5 @@
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="1644004064658032424" name="tagmanager_preview_dialog_button">"Fortsæt"</string>
     <string msgid="2087817895408680879" name="tagmanager_preview_dialog_message">"Eksempelvisningstilstanden er opdateret"</string>
-    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Eksempelvisning"</string>
+    <string msgid="5216190713680289069" name="tagmanager_preview_dialog_title">"Forhåndsvisning"</string>
 </resources>
