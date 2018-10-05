@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.notificacao.fabio"
+    package="io.cordova.hellocordova"
     android:hardwareAccelerated="true"
     android:versionCode="10000"
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="26" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
 
     <supports-screens
         android:anyDensity="true"
@@ -44,7 +44,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
-            android:name="io.notificacao.fabio.MainActivity"
+            android:name="io.cordova.hellocordova.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleTop"
@@ -74,12 +74,17 @@
 
         <receiver android:name="org.apache.cordova.firebase.OnNotificationOpenReceiver" />
 
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:exported="false" >
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.crash.component.FirebaseCrashRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
@@ -94,13 +99,11 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
-        <activity
-            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-            android:excludeFromRecents="true"
-            android:exported="true"
-            android:launchMode="singleInstance"
-            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="io.cordova.hellocordova.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
         <!--
              FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
@@ -115,7 +118,7 @@
 
         <provider
             android:name="com.google.firebase.perf.provider.FirebasePerfProvider"
-            android:authorities="io.notificacao.fabio.firebaseperfprovider"
+            android:authorities="io.cordova.hellocordova.firebaseperfprovider"
             android:exported="false"
             android:initOrder="101" />
 
@@ -129,7 +132,7 @@
             android:exported="true"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.io.notificacao.fabio" />
+                <data android:scheme="tagmanager.c.io.cordova.hellocordova" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -179,16 +182,16 @@
             </intent-filter>
         </service>
 
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="io.notificacao.fabio.firebaseinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
-
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="io.cordova.hellocordova.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
 
         <meta-data
             android:name="com.google.android.gms.version"

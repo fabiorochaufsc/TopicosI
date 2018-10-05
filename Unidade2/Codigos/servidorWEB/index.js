@@ -22,6 +22,7 @@ app.get('/FCM', function (req, resp) {
 
 app.get(/^(.+)$/, function (req, res) {
   try {
+  	console.log('teste')
     res.write("A pagina que vc busca nao existe")
     res.end();
   }

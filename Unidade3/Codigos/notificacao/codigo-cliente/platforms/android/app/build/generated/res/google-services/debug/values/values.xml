@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">139005445318-ouminqpqd1ick5lb9s0upbqa7k2p8186.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://aula-03-10.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">139005445318</string>
+    <string name="google_api_key" translatable="false">AIzaSyBCbGDA3KyUx5mNvCCr1DmN7dIDpuDXgZw</string>
+    <string name="google_app_id" translatable="false">1:139005445318:android:f52ffe99dc638fdf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBCbGDA3KyUx5mNvCCr1DmN7dIDpuDXgZw</string>
+    <string name="google_storage_bucket" translatable="false">aula-03-10.appspot.com</string>
+    <string name="project_id" translatable="false">aula-03-10</string>
+</resources>

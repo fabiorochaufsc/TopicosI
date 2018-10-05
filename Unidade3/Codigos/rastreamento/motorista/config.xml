@@ -23,6 +23,10 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.GeoBroker" />
+    </feature>
     <engine name="android" spec="^7.1.1" />
+    <engine name="browser" spec="^5.0.4" />
+    <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
 </widget>

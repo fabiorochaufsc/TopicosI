@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
     <color name="accent">#FF00FFFF</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
@@ -76,7 +76,6 @@
     <dimen name="notification_top_pad_large_text">5dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
-    <item name="crash_reporting_present" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
     <item name="text" type="id"/>
@@ -87,30 +86,37 @@
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="activity_name">@string/launcher_name</string>
     <string name="app_name">HelloCordova</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">b0232fbb-701c-41f5-8281-cc1a6fb1e686</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
-    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
     <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
-    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string name="common_google_play_services_install_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are missing from your device.</string>
     <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
     <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
     <string name="common_google_play_services_notification_ticker">Google Play services error</string>
-    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
-    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are not supported by your device.</string>
     <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
-    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run unless you update Google Play services.</string>
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
-    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t run without Google Play services, which are currently updating.</string>
     <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="default_notification_channel_id">fcm_default_channel</string>
     <string name="default_notification_channel_name">Default</string>
+    <string name="default_web_client_id" translatable="false">139005445318-ouminqpqd1ick5lb9s0upbqa7k2p8186.apps.googleusercontent.com</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="google_api_key">AIzaSyCAv8pL-lqe7M4Na3FjrCEP5H1xfD2dTDs</string>
-    <string name="google_app_id">1:1092043943036:android:5b6105351b7ac69e</string>
+    <string name="firebase_database_url" translatable="false">https://aula-03-10.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">139005445318</string>
+    <string name="google_api_key" translatable="false">AIzaSyBCbGDA3KyUx5mNvCCr1DmN7dIDpuDXgZw</string>
+    <string name="google_app_id" translatable="false">1:139005445318:android:f52ffe99dc638fdf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBCbGDA3KyUx5mNvCCr1DmN7dIDpuDXgZw</string>
+    <string name="google_storage_bucket" translatable="false">aula-03-10.appspot.com</string>
     <string name="launcher_name">@string/app_name</string>
+    <string name="project_id" translatable="false">aula-03-10</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tagmanager_preview_dialog_button">Continue</string>
     <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>

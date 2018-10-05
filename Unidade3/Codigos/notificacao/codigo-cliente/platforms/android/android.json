@@ -19,20 +19,6 @@
           ]
         }
       },
-      "res/values/strings.xml": {
-        "parents": {
-          "/resources": [
-            {
-              "xml": "<string name=\"google_app_id\">@string/google_app_id</string>",
-              "count": 1
-            },
-            {
-              "xml": "<string name=\"google_api_key\">@string/google_api_key</string>",
-              "count": 1
-            }
-          ]
-        }
-      },
       "AndroidManifest.xml": {
         "parents": {
           "/*": [
@@ -73,10 +59,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.notificacao.fabio"
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-firebase": {
-      "PACKAGE_NAME": "io.notificacao.fabio"
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {},
@@ -92,6 +78,6 @@
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-firebase": "1.0.4"
+    "cordova-plugin-firebase": "2.0.4"
   }
 }

@@ -22,14 +22,14 @@ apply plugin: 'com.android.application'
 buildscript {
     repositories {
         mavenCentral()
-        jcenter()
         maven {
             url "https://maven.google.com"
         }
+        jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
     }
 }
 
@@ -91,7 +91,7 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../cordova-plugin-firebase/fabio-build.gradle"
+apply from: "../cordova-plugin-firebase/hellocordova-build.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -260,11 +260,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
-    compile "com.google.gms:google-services:+"
     compile "com.google.android.gms:play-services-tagmanager:+"
     compile "com.google.firebase:firebase-core:+"
     compile "com.google.firebase:firebase-messaging:+"
-    compile "com.google.firebase:firebase-crash:+"
     compile "com.google.firebase:firebase-config:+"
     compile "com.google.firebase:firebase-perf:+"
     // SUB-PROJECT DEPENDENCIES END

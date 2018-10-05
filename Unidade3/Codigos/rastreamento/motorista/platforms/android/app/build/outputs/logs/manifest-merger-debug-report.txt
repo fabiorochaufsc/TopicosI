@@ -1,100 +1,194 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
-INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
-INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
-INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
-MERGED from [:CordovaLib] /home/frr/novo/motorista/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
-INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
-INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-17:12
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/e5c803e2a2084197c3676a277db5613e/AndroidManifest.xml:2:1-9:12
+MERGED from [:CordovaLib] /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/401abdfb55d080f88c8529436025ee5f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ca64f03f52a27ac890a876726095dac5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e0ddd1d440965a68b4fa6f6b79983066/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48e6212aea8ed9493aa3a9818e1f3e0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e3104daca14467f4916ec479c9adc312/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3449509941a8c2e60a76065dee96c8d7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/fac6e692b646c479bad39b4766f7fcaf/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/frr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16251d153a727bbc66bc93caa784cd9c/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
 	package
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:102-135
-		INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:102-135
+		INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
-		INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml
 	android:hardwareAccelerated
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:136-194
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:136-194
 	android:versionCode
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
-		INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml
 supports-screens
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
 	android:largeScreens
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
 	android:smallScreens
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
 	android:normalScreens
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
 	android:xlargeScreens
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
 	android:resizeable
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
 	android:anyDensity
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:5-12:19
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/e5c803e2a2084197c3676a277db5613e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/e5c803e2a2084197c3676a277db5613e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/401abdfb55d080f88c8529436025ee5f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/401abdfb55d080f88c8529436025ee5f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ca64f03f52a27ac890a876726095dac5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ca64f03f52a27ac890a876726095dac5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e0ddd1d440965a68b4fa6f6b79983066/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e0ddd1d440965a68b4fa6f6b79983066/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48e6212aea8ed9493aa3a9818e1f3e0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48e6212aea8ed9493aa3a9818e1f3e0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e3104daca14467f4916ec479c9adc312/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e3104daca14467f4916ec479c9adc312/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3449509941a8c2e60a76065dee96c8d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3449509941a8c2e60a76065dee96c8d7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/fac6e692b646c479bad39b4766f7fcaf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/fac6e692b646c479bad39b4766f7fcaf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/frr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16251d153a727bbc66bc93caa784cd9c/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/frr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16251d153a727bbc66bc93caa784cd9c/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
 	android:hardwareAccelerated
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
 	android:icon
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
 activity#io.cordova.hellocordova.MainActivity
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
 	android:label
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
 	android:launchMode
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
 	android:windowSoftInputMode
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
 	android:configChanges
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
 	android:theme
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
 	android:name
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
 	android:label
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
 action#android.intent.action.MAIN
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
 	android:name
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
 	android:name
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
 uses-sdk
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:13:5-74
-MERGED from [:CordovaLib] /home/frr/novo/motorista/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [:CordovaLib] /home/frr/novo/motorista/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:13:5-74
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/e5c803e2a2084197c3676a277db5613e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/e5c803e2a2084197c3676a277db5613e/AndroidManifest.xml:5:5-44
+MERGED from [:CordovaLib] /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/401abdfb55d080f88c8529436025ee5f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/401abdfb55d080f88c8529436025ee5f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ca64f03f52a27ac890a876726095dac5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/ca64f03f52a27ac890a876726095dac5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e0ddd1d440965a68b4fa6f6b79983066/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e0ddd1d440965a68b4fa6f6b79983066/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48e6212aea8ed9493aa3a9818e1f3e0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48e6212aea8ed9493aa3a9818e1f3e0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e3104daca14467f4916ec479c9adc312/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e3104daca14467f4916ec479c9adc312/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3449509941a8c2e60a76065dee96c8d7/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3449509941a8c2e60a76065dee96c8d7/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/fac6e692b646c479bad39b4766f7fcaf/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/fac6e692b646c479bad39b4766f7fcaf/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/frr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16251d153a727bbc66bc93caa784cd9c/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/frr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16251d153a727bbc66bc93caa784cd9c/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:13:42-71
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:13:42-71
 	android:minSdkVersion
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:13:15-41
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:13:15-41
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:14:5-81
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:14:5-81
 	android:name
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:14:22-78
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:14:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:15:5-79
+ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:15:22-76
-uses-feature#android.hardware.location.gps
-ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:16:5-66
+		ADDED from /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/AndroidManifest.xml:15:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from /home/frr/novo/motorista/platforms/android/app/src/main/AndroidManifest.xml:16:19-63
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e0ddd1d440965a68b4fa6f6b79983066/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e0ddd1d440965a68b4fa6f6b79983066/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/frr/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/e0ddd1d440965a68b4fa6f6b79983066/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48e6212aea8ed9493aa3a9818e1f3e0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c48e6212aea8ed9493aa3a9818e1f3e0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e3104daca14467f4916ec479c9adc312/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/e3104daca14467f4916ec479c9adc312/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3449509941a8c2e60a76065dee96c8d7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/3449509941a8c2e60a76065dee96c8d7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/fac6e692b646c479bad39b4766f7fcaf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/fac6e692b646c479bad39b4766f7fcaf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/frr/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/31522c68dc8692a38a478734469f9f94/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/frr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16251d153a727bbc66bc93caa784cd9c/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/frr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16251d153a727bbc66bc93caa784cd9c/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/frr/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/16251d153a727bbc66bc93caa784cd9c/AndroidManifest.xml:26:13-58

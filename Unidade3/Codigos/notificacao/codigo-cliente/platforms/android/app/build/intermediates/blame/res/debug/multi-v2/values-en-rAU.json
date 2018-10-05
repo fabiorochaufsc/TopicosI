@@ -1,40 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/DISCIPLINAS_PUBLICO/TopicosI/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/70c398c67846196e5d24e0ee155289fb/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
-            "map": [
-                {
-                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/70c398c67846196e5d24e0ee155289fb/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/frr/Downloads/teste/fabio/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
-            "map": [
-                {
-                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/70c398c67846196e5d24e0ee155289fb/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
