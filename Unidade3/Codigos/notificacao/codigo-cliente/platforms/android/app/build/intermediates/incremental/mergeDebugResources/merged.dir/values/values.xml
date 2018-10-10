@@ -86,7 +86,7 @@
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="activity_name">@string/launcher_name</string>
     <string name="app_name">HelloCordova</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">b0232fbb-701c-41f5-8281-cc1a6fb1e686</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">56f869ec-d9d7-4585-a06c-36928cd0d883</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>

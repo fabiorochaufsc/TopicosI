@@ -1,3 +1,16 @@
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://127.0.0.1:27017/rastreamento";
+
+MongoClient.connect( url, {useNewUrlParser: true},function(err, db) {
+  if (err) {
+    console.log('nao consigo conectar no BD')
+    process.exit(1);
+  }
+  console.log('conectou no BD');
+}); 
+
+
+
 var express = require('express')
 var cors = require('cors')
 var app = express()
@@ -15,23 +28,8 @@ app.listen(app.get('port'), function() {
 
 
 
-function decode ( data , decodeornot ){
-  if( typeof(data) == 'string' ){
-    var objArr = data.split('&');
-    var newobj = {};
-    for( var i in objArr ){
-      var key = objArr[i].split('=')[0];
-      var value = ( decodeornot ? decodeURIComponent( objArr[i].split('=')[1] ) : objArr[i].split('=')[1] );
-      newobj[key] = value;
-    }
-    return newobj;
-  }else{
-    console.warn('error occur');
-  }
-}
 
 
-// create application/json parser
 var jsonParser = bodyParser.json()
 
 
@@ -45,7 +43,8 @@ app.post('/posicao', jsonParser, function(request, response,next) {
 
   if (!request.body) return response.sendStatus(400)
   let req = request.body;
-   
+
+  console.log('ID da van:'+req.ID);
   console.log('latitude:'+req.latitude);
   console.log('longitude:'+req.longitude);
   response.end();

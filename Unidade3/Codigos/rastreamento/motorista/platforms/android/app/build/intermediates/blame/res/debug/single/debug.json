@@ -120,12 +120,12 @@
         "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/res/drawable/notification_bg.xml"
-    },
-    {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
@@ -136,12 +136,12 @@
         "source": "/home/frr/novo/motorista/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
     },
     {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
         "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/2babe1bb5cf1ac7456625c3deca45fa2/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",

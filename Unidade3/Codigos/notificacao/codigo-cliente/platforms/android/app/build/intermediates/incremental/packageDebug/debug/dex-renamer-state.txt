@@ -1,4 +1,4 @@
-#Thu Oct 04 09:20:24 BRT 2018
-base.0=/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Mon Oct 08 15:22:57 BRT 2018
+base.0=/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
