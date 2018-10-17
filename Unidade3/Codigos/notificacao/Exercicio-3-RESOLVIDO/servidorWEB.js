@@ -9,9 +9,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.post('/token', function (req, resp) {
   let id    = req.body.id;
-  let nome  = req.body.nome;
-  let senha = req.body.senha;
-  
+   
   console.log("usuario "+nome+"possui token:");
   console.log(id);
  

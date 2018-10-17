@@ -8,7 +8,8 @@ var clientes=[];
 const WebSocket = require('ws');
 
 const wss = new WebSocket.Server({ port: 3001 },function (){
-  console.log('Servidor de Clientes rodando na porta 3001');
+
+  console.log('Servidor de Clientes rodando na porta '+this.address().port);
 });
 
 wss.on('connection', function connection(ws) {
