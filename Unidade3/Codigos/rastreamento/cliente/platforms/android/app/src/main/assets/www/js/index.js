@@ -1,21 +1,4 @@
-/*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
+var van;
 var app = {
     // Application Constructor
     initialize: function() {
@@ -32,14 +15,32 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+        conectaServidorSockets ("ws://frr-note.ignorelist.com:3001");
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        var x=0;
+		var mymap = L.map('mapid').setView([-28.948233, -49.4636407], 17);
 
-        console.log('Received Event: ' + id);
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			maxZoom: 18,
+			attribution: '',
+			id: 'mapbox.streets'
+		}).addTo(mymap);
+ 	
+ 		var myIcon = L.icon({
+    		iconUrl: 'img/van.png',
+    		iconSize: [26, 26]
+		});
+ 
+ 		van = L.marker([-28.9482, -49.4636407]);
+    	van.setIcon(myIcon);
+    	van.addTo(mymap);
+    
+    
+    
+     
+    
+   
+    
     }
 };
 

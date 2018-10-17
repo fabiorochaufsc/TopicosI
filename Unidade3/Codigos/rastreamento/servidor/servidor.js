@@ -8,7 +8,7 @@ var clientes=[];
 const WebSocket = require('ws');
 
 const wss = new WebSocket.Server({ port: 3001 },function (){
-  console.log('SERVIDOR DE WEBSOCKET RODANDO');
+  console.log('Servidor de Clientes rodando na porta 3001');
 });
 
 wss.on('connection', function connection(ws) {
@@ -20,13 +20,25 @@ wss.on('connection', function connection(ws) {
 
     ws.monitorando = m.valor.ID;
   });
+  ws.on('close', function () {
+      for (var a=0; a< clientes.length;a++)
+      {
+        if (ws == clientes[a])      clientes.splice(a, 1);
+
+      }
+  });
 
 });
 
 function enviaCliente (s, msg)
 {
-  var msg2 = {MSG:'localizacao',latitude:msg.latitude,longitude:msg.longitude};
-  s.send(JSON.stringify(msg2));
+  try {
+    var msg2 = {MSG:'localizacao',ID:msg.ID,latitude:msg.latitude,longitude:msg.longitude};
+    s.send(JSON.stringify(msg2));
+  }catch(e)
+  {
+
+  }
 
 }
 setInterval (periodica, 3000);
@@ -52,7 +64,7 @@ function periodica ()
         if (ID)
         {
           var diferencaTempo = tempo -  van[ID].timestamp;
-          enviaCliente(clientes[c], {latitude:van[ID].latitude,longitude:van[ID].longitude});
+          enviaCliente(clientes[c], {ID:ID,latitude:van[ID].latitude,longitude:van[ID].longitude});
         }
         
       }
@@ -86,7 +98,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 app.set('port', process.env.PORT || 3000);
 app.listen(app.get('port'), function() { 
-  console.log('we are listening on: ', 
+  console.log('Servidor de Vans rodando na porta  ', 
   app.get('port'))
 });
 

@@ -1,3 +1,7 @@
+var options = {
+      enableHighAccuracy: true,
+      maximumAge: 0
+    };
 
 function envia(data) 
 {
@@ -6,7 +10,7 @@ function envia(data)
   request = new XMLHttpRequest();
   
   if (request) {
-    request.open('POST', "http://150.162.180.229:3000/posicao" , true);
+    request.open('POST', "http://frr-note.ignorelist.com:3000/posicao" , true);
     request.setRequestHeader("Content-type", "application/json");    
     request.send( JSON.stringify(data) );
   }
@@ -20,7 +24,7 @@ function periodica ()
 {	
 
 	 if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
+        navigator.geolocation.getCurrentPosition(showPosition, null, options );
      }
 		
 

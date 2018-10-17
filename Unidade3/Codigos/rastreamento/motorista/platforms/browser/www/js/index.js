@@ -1,3 +1,7 @@
+var options = {
+      enableHighAccuracy: true,
+      maximumAge: 0
+    };
 
 function envia(data) 
 {
@@ -6,21 +10,22 @@ function envia(data)
   request = new XMLHttpRequest();
   
   if (request) {
-    request.open('POST', "http://150.162.180.229:80/posicao" , true);
+    request.open('POST', "http://frr-note.ignorelist.com:3000/posicao" , true);
     request.setRequestHeader("Content-type", "application/json");    
     request.send( JSON.stringify(data) );
   }
 }
 
 function showPosition(position) {
-    envia({latitude:position.coords.latitude, longitude:position.coords.longitude});
+    alert('pegou posicao')
+    envia({ID:123,latitude:position.coords.latitude, longitude:position.coords.longitude});
 }
 
 function periodica ()
 {	
 
 	 if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
+        navigator.geolocation.getCurrentPosition(showPosition, null, options );
      }
 		
 

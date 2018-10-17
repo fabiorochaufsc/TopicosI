@@ -14,9 +14,13 @@ function conectaServidorSockets (url)
     socket.onmessage = function(evt) {
 
        var tmp = evt.data;
-
+     
        tmp = JSON.parse(tmp);
-       document.getElementById('texto').innerHTML =document.getElementById('texto').innerHTML+'<br>'+tmp.valor; 
+         console.log(tmp);
+         van.setLatLng([tmp.latitude, tmp.longitude]);
+         van.bindTooltip("<small>VAN:"+tmp.ID+"</small>",{ permanent: false});
+
+       document.getElementById('texto').innerHTML =document.getElementById('texto').innerHTML+'<br> Latitude:'+tmp.latitude+' Longitude'+tmp.longitude; 
     }
 
 }
