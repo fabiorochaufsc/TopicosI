@@ -7,12 +7,39 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-firebase": {
+  "cordova-plugin-fcm-with-dependecy-updated": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-firebase@2.0.4"
+      "id": "cordova-plugin-fcm-with-dependecy-updated"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "phonegap-plugin-push": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/phonegap/phonegap-plugin-push"
     },
     "is_top_level": true,
+    "variables": {
+      "ANDROID_SUPPORT_V13_VERSION": "27.+",
+      "FCM_VERSION": "17.0.+"
+    }
+  },
+  "cordova-support-google-services": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-support-google-services@~1.2.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "phonegap-plugin-multidex": {
+    "source": {
+      "type": "registry",
+      "id": "phonegap-plugin-multidex@~1.0.0"
+    },
+    "is_top_level": false,
     "variables": {}
   }
 }

@@ -1,363 +1,347 @@
 [
     {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout-v21/notification_action.xml"
+    },
+    {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_media_custom.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable/notification_icon_background.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_big_media_narrow_custom.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxxhdpi_screen.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_template_icon_group.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout/notification_template_icon_group.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable/notification_bg_low.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_big_media_narrow.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_big_media_custom.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-v21/notification_action_background.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_screen.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
         "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
     },
     {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_media.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_action_tombstone.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
         "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/color/common_google_signin_btn_tint.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_light_normal.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-mdpi_screen.png.flat",
         "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-port-mdpi/screen.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable/notification_icon_background.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_template_icon_group.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_media_custom.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_template_part_chronometer.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_disabled.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xhdpi_screen.png.flat",
         "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-port-xhdpi/screen.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_big_media.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/xml/config.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_big_media_narrow_custom.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxxhdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-port-xxxhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/xml/config.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_lines_media.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
         "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
@@ -369,442 +353,58 @@
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/googleg_standard_color_18.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_template_part_chronometer.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/googleg_standard_color_18.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_lines_media.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_big_media.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/58136fafe43270e57a437904dfcc92ba/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
         "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
     },
     {
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
         "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
     },
     {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_light_normal.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxhdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-land-xxhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxxhdpi_screen.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-port-xxhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_action.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/color/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_screen.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_dark_normal.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_action.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notification_bg_normal.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-hdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-land-hdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xxxhdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-land-xxxhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/googleg_standard_color_18.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_icon.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/mipmap-hdpi/icon.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-v21/notification_action_background.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_full_open_on_phone.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_media_action.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable/notification_bg.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/color/common_google_signin_btn_tint.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_full_open_on_phone.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-mdpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-port-mdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/xml/config.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_light_normal.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_media_action.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_disabled.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-ldpi_screen.png.flat",
-        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/drawable-land-ldpi/screen.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_light_normal.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_icon.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
-        "source": "/home/frr/notificacao/notificacao/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3898d02eb05ee28e029c66659ce8ed66/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_icon_light_focused.xml"
-    },
-    {
-        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+        "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/xml_firebaseextendednotification_provider_paths.xml.flat",
+        "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/src/main/res/xml/firebaseextendednotification_provider_paths.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/9b36b04b2da45a76bac3957562771a8a/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/home/frr/notificacao/notificacao/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/f342866956864f52ac9fbf42e7bf488f/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/de110b6668e54a0838a2ca2311763ea3/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "source": "/home/frr/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/dbc7c9a52ac0ab584a3cf5fa112389c8/res/drawable/common_google_signin_btn_text_disabled.xml"
     }
 ]

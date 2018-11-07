@@ -1,0 +1,4 @@
+#Fri Oct 19 11:44:24 BRT 2018
+base.0=/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/NotificacaoLocal/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/NotificacaoLocal/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

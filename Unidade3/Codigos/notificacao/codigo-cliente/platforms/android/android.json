@@ -5,23 +5,31 @@
   },
   "config_munge": {
     "files": {
-      "res/xml/config.xml": {
+      "AndroidManifest.xml": {
         "parents": {
-          "/*": [
+          "/manifest/application": [
             {
-              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "xml": "<activity android:exported=\"true\" android:name=\"com.adobe.phonegap.push.PushHandlerActivity\" android:permission=\"${applicationId}.permission.PushHandlerActivity\" />",
               "count": 1
             },
             {
-              "xml": "<feature name=\"FirebasePlugin\"><param name=\"android-package\" value=\"org.apache.cordova.firebase.FirebasePlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "xml": "<receiver android:name=\"com.adobe.phonegap.push.BackgroundActionButtonHandler\" />",
+              "count": 1
+            },
+            {
+              "xml": "<receiver android:name=\"com.adobe.phonegap.push.PushDismissedHandler\" />",
+              "count": 1
+            },
+            {
+              "xml": "<service android:name=\"com.adobe.phonegap.push.FCMService\"><intent-filter><action android:name=\"com.google.firebase.MESSAGING_EVENT\" /></intent-filter></service>",
+              "count": 1
+            },
+            {
+              "xml": "<service android:name=\"com.adobe.phonegap.push.PushInstanceIDListenerService\"><intent-filter><action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" /></intent-filter></service>",
               "count": 1
             }
-          ]
-        }
-      },
-      "AndroidManifest.xml": {
-        "parents": {
-          "/*": [
+          ],
+          "/manifest": [
             {
               "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
               "count": 1
@@ -33,23 +41,23 @@
             {
               "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
               "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+              "count": 1
             }
-          ],
-          "/manifest/application": [
+          ]
+        }
+      },
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
             {
-              "xml": "<service android:enabled=\"true\" android:exported=\"false\" android:name=\"com.google.android.gms.measurement.AppMeasurementService\" />",
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
             },
             {
-              "xml": "<service android:name=\"org.apache.cordova.firebase.FirebasePluginMessagingService\"><intent-filter><action android:name=\"com.google.firebase.MESSAGING_EVENT\" /></intent-filter></service>",
-              "count": 1
-            },
-            {
-              "xml": "<service android:name=\"org.apache.cordova.firebase.FirebasePluginInstanceIDService\"><intent-filter><action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" /></intent-filter></service>",
-              "count": 1
-            },
-            {
-              "xml": "<receiver android:name=\"org.apache.cordova.firebase.OnNotificationOpenReceiver\" />",
+              "xml": "<feature name=\"PushNotification\"><param name=\"android-package\" value=\"com.adobe.phonegap.push.PushPlugin\" /></feature>",
               "count": 1
             }
           ]
@@ -59,25 +67,35 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "io.minha.pizzaria"
     },
-    "cordova-plugin-firebase": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "io.minha.pizzaria"
+    },
+    "phonegap-plugin-multidex": {
+      "PACKAGE_NAME": "io.minha.pizzaria"
+    },
+    "phonegap-plugin-push": {
+      "ANDROID_SUPPORT_V13_VERSION": "27.+",
+      "FCM_VERSION": "17.0.+",
+      "PACKAGE_NAME": "io.minha.pizzaria"
     }
   },
   "dependent_plugins": {},
   "modules": [
     {
-      "id": "cordova-plugin-firebase.FirebasePlugin",
-      "file": "plugins/cordova-plugin-firebase/www/firebase.js",
-      "pluginId": "cordova-plugin-firebase",
+      "id": "phonegap-plugin-push.PushNotification",
+      "file": "plugins/phonegap-plugin-push/www/push.js",
+      "pluginId": "phonegap-plugin-push",
       "clobbers": [
-        "FirebasePlugin"
+        "PushNotification"
       ]
     }
   ],
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-firebase": "2.0.4"
+    "cordova-support-google-services": "1.2.1",
+    "phonegap-plugin-multidex": "1.0.0",
+    "phonegap-plugin-push": "2.2.3"
   }
 }

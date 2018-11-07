@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Exemplo de uso de Banco de Dados</title>
+
+    <script type="text/javascript" charset="utf-8">
+  function populateDB(tx) {
+        tx.executeSql('DROP TABLE IF EXISTS PESSOAS');
+        tx.executeSql('CREATE TABLE IF NOT EXISTS PESSOAS (id unique, nome, cidade, CPF)');
+        tx.executeSql('INSERT INTO PESSOAS (id, nome, cidade,  CPF) VALUES (1, "Maria Antônia","Araranguá", 123)');
+        tx.executeSql('INSERT INTO PESSOAS (id, nome,cidade, CPF) VALUES (2, "João Pedro","Araranguá", 4566)');
+        tx.executeSql('INSERT INTO PESSOAS (id, nome, cidade, CPF) VALUES (3, "Aline Silva", "Florianópolis", 97)');
+    }
+      function leDB(tx) {
+      	    	console.log('Mostra apenas os de Araranguá');
+
+       tx.executeSql('SELECT * FROM PESSOAS WHERE cidade="Araranguá" ', [], function (tx, results) { 
+      		var len = results.rows.length, i; 
+      		
+      
+         console.log(results.rows); 
+     
+  
+   }, null); 
+        
+    }
+
+    function leDBTODOS(tx) {
+    	console.log('Mostra todos os registros');
+       tx.executeSql('SELECT * FROM PESSOAS  ', [], function (tx, results) { 
+      		var len = results.rows.length, i; 
+      		
+      
+         console.log(results.rows); 
+     
+  
+   }, null); 
+        
+    }
+
+
+    function errorCB(tx, err) {
+        alert("Erro: "+err);
+    }
+
+    // Transaction success callback
+    //
+    function successCB() {
+        //alert("sucesso!");
+    }
+    
+        var db = window.openDatabase("test", "1.0", "Test DB", 1000000);
+           db.transaction(populateDB, errorCB, successCB);
+           db.transaction(leDBTODOS, errorCB, successCB);
+           db.transaction(leDB, errorCB, successCB);
+
+    </script>
+  </head>
+  <body>
+    <h1>Exemplo</h1>
+    Neste exemplo apresenta-se um fragmento de código que mostra como usar SQL para criar uma tabela, inserir dados e consultar dados. Use o <b>Inspect</b> para ver a saída de dados.
+    
+  </body>
+</html>

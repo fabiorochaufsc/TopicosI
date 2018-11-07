@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.teste.meu"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.teste.meu"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.teste.meu"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.teste.meu"
+    }
+  }
+}

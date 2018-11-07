@@ -1,0 +1,38 @@
+<html>
+<head>
+		
+	<link rel='stylesheet' type='text/css' href='/meu.css'>
+
+	</head>
+
+	<body>
+MENU
+
+<button id="botao1" >BOTAO1</button>
+
+<script>
+	var x = document.getElementById('botao1');
+	x.addEventListener('click',function(){
+		
+		envia({origem:'sss'});
+	});
+function envia(data) 
+{
+  var request;
+  
+  request = new XMLHttpRequest();
+  request.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       alert(request.responseText);
+    }
+};
+  if (request) {
+    request.open('POST', "http://localhost:8080/funcao1" , true);
+    request.setRequestHeader("Content-type", "application/json");    
+    request.send( JSON.stringify(data) );
+  }
+}
+</script>
+</body>
+
+</html>

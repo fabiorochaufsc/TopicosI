@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "139005445318",
-    "firebase_url": "https://aula-03-10.firebaseio.com",
-    "project_id": "aula-03-10",
-    "storage_bucket": "aula-03-10.appspot.com"
+    "project_number": "755228845416",
+    "firebase_url": "https://pizzaria-d2924.firebaseio.com",
+    "project_id": "pizzaria-d2924",
+    "storage_bucket": "pizzaria-d2924.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:139005445318:android:f52ffe99dc638fdf",
+        "mobilesdk_app_id": "1:755228845416:android:9db1506a5a073594",
         "android_client_info": {
-          "package_name": "io.cordova.hellocordova"
+          "package_name": "io.minha.pizzaria"
         }
       },
       "oauth_client": [
         {
-          "client_id": "139005445318-ouminqpqd1ick5lb9s0upbqa7k2p8186.apps.googleusercontent.com",
+          "client_id": "755228845416-seaoi43gd56kfb7jri9jlant4iuerk1e.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBCbGDA3KyUx5mNvCCr1DmN7dIDpuDXgZw"
+          "current_key": "AIzaSyAZAgCVmHZlQi-qSy5jzZYNYzwZToD0q1s"
         }
       ],
       "services": {

@@ -1,0 +1,2 @@
+# Referenced at /home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/notificacao/codigo-cliente/platforms/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:54
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }

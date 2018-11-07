@@ -1,0 +1,31 @@
+{
+    "name": "helloworld",
+    "displayName": "HelloCordova",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^7.1.1",
+        "cordova-plugin-doze-Optimize": "git+https://github.com/thomas550i/cordova-plugin-doze-Optimize.git",
+        "cordova-plugin-intent": "git+https://github.com/napolitano/cordova-plugin-intent.git",
+        "cordova-plugin-powermanagement-orig": "git+https://github.com/Viras-/cordova-plugin-powermanagement.git",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "cordova-support-google-services": "^1.2.1",
+        "phonegap-plugin-multidex": "^1.0.0",
+        "phonegap-plugin-push": "git+https://github.com/phonegap/phonegap-plugin-push.git"
+    },
+    "cordova": {
+        "plugins": {
+            "phonegap-plugin-push": {},
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}

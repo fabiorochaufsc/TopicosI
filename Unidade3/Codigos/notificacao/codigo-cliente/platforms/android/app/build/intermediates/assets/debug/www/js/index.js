@@ -27,12 +27,16 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-           window.FirebasePlugin.getToken(function(token) {
-               alert(token);
-               envia({id:token});
-           }, function(error) {
-              console.error(error);
-           });
+   window.gcmPush = PushNotification.init({
+            android: {
+                sound: "true",
+                vibration: "true",
+                topics: map(androidTopics, 'topic')
+            }
+            
+        });
+
+
     }
 };
 

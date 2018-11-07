@@ -11,13 +11,18 @@
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-android": "^7.1.1",
-        "cordova-plugin-firebase": "^2.0.4",
-        "cordova-plugin-whitelist": "^1.3.3"
+        "cordova-plugin-whitelist": "^1.3.3",
+        "cordova-support-google-services": "^1.2.1",
+        "phonegap-plugin-multidex": "^1.0.0",
+        "phonegap-plugin-push": "git+https://github.com/phonegap/phonegap-plugin-push.git"
     },
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-firebase": {}
+            "phonegap-plugin-push": {
+                "ANDROID_SUPPORT_V13_VERSION": "27.+",
+                "FCM_VERSION": "17.0.+"
+            }
         },
         "platforms": [
             "android"

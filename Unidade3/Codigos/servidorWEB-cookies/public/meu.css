@@ -1,0 +1,57 @@
+
+
+/* Adjust Menu colors - Normal */
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 10px 6px -6px #999;
+
+
+    /* the rest of your styling */
+}
+.navbar-default .navbar-brand { color: black}
+
+.navbar-custom {
+background:#007bbb;
+font-family: Arial, sans-serif;
+font-size: medium;
+font-weight: bold;
+}
+
+.navbar .nav > li > a, .navbar .nav > li > a {
+color:          white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+
+}
+/* Adjust Menu colors - Hover */
+
+
+ .dropdown-menu > li > a {
+    color: white;
+font-family: Arial, sans-serif;
+font-size: medium;
+
+
+   }
+
+
+
+
+.dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: white;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+
+   }
+
+
+/* Adjust dropdown Menu items (blue) text color, (yellow) shading and (green) border */
+.dropdown-menu > li > a {
+color:          black;
+background:     white;
+
+}
+

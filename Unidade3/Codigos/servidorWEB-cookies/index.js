@@ -1,47 +1,91 @@
-var express = require('express');
+var   express = require('express');
+const bodyParser = require("body-parser");
+var   cookieSession = require('cookie-session')
+const pug = require('pug');
+var   path = require('path');
+var   app = express();
+var   expiryDate = new Date( Date.now() + 60 * 60 * 1000 ); // 1 hour
 
-var cookieSession = require('cookie-session')
 
-var app = express();
 
 app.use(cookieSession({
-  name: 'session',
-  keys: ['dsdasdasdasdasd'],
+  name: 'session3',
+  keys: ['key1', 'key2'],
+  cookie: { secure: true,
+            httpOnly: true,
+            domain: 'localhost.com',
+            path: 'foo/bar',
+            expires: expiryDate
+          }
+  })
+);
 
-  // Cookie Options
-  maxAge: 24 * 60 * 60 * 1000 // 24 hours
-}))
+app.set("view engine", "pug");
+app.set("views", path.join(__dirname, "views"));
 
-app.get('/', function(req, res) {
-		res.redirect('/login');
+
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+app.use(express.static('public'));
+app.use(bodyParser.json());
+
+
+app.get('/adm', function(req, res) {
+	res.redirect('/login.html');
 });
-app.get('/library', function(req, res) {
-	console.log(req.cookies);
+
+
+
+app.get('/library', function(req, res)
+{
 	if(req.session.restricted) {
-		res.send('You have been in the restricted section ' +
-		req.session.restrictedCount + ' times.');
-	}else {
-		res.send('Welcome to the library.');
-	}
+		res.sendFile( __dirname + "/private/" + "library.html" );
+		
+
+	}else res.redirect('/formularioLogin');
+
 });
 
 app.get('/logout', function(req, res) {
-	if (req.session.restricted) {
-		delete req.session.restricted;
-		req.session.restrictedCount=0;
-	}
-	
-	res.redirect('/login');
+	req.session = null;
+	res.send('logout com sucesso')
 });
-app.get('/login', function(req, res) {
-	req.session.restricted = true;
-	if(!req.session.restrictedCount){
-		req.session.restrictedCount = 1;
-		res.send('Login ok');
-	} else {
-		req.session.restrictedCount += 1;
+
+app.get('/menu', function(req, res) {
+	try {
+		
 	}
-	res.redirect('/library');
+	catch (e)
+	{
+		res.send('falha de autenticacao');
+	}
 });
+
+app.post('/enviaPropaganda', function(req, res) {
+	if(req.session.restricted) {
+		res.send('enviado do servidor')
+	}else res.redirect('/formularioLogin');
+});
+
+
+app.post('/formularioLogin', function(req, res) {
+	try {
+		if ((req.body.uname=='frr') && (req.body.psw=='teste') )
+		{
+			req.session.restricted = true;
+			res.sendFile( __dirname + "/private/" + "menu.html" );
+			 //res.render("outro.pug", {user: 'frr'});
+		}
+		else res.send('falha de autenticacao');
+	}
+	catch (e)
+	{
+		res.send('falha de autenticacao');
+	}
+});
+
+
+
 
 app.listen(8080);
