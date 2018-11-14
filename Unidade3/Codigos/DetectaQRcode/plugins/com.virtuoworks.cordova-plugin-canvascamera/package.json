@@ -1,0 +1,75 @@
+{
+  "_from": "git+https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
+  "_id": "com.virtuoworks.cordova-plugin-canvascamera@1.1.5",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/com.virtuoworks.cordova-plugin-canvascamera",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
+    "rawSpec": "https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
+    "saveSpec": "git+https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
+    "fetchSpec": "https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/VirtuoWorks/CanvasCameraPlugin.git#b634fe23fb058ef3182cf0f37db13183937ad47f",
+  "_spec": "https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
+  "_where": "/home/frr/camera/camera",
+  "bugs": {
+    "url": "https://github.com/VirtuoWorks/CanvasCameraPlugin/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Virtuoworks",
+      "url": "https://www.virtuoworks.com/"
+    },
+    {
+      "name": "Sami Radi",
+      "email": "sami.radi@virtuoworks.com",
+      "url": "https://github.com/Sami-Radi"
+    },
+    {
+      "name": "Sébastien Guillon",
+      "email": "sebastien.guillon@virtuoworks.com",
+      "url": "https://github.com/Sebastien-Guillon"
+    }
+  ],
+  "cordova": {
+    "id": "com.virtuoworks.cordova-plugin-canvascamera",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "A Cordova plugin to display video from the device's camera into an HTML canvas element.",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/VirtuoWorks/CanvasCameraPlugin#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "camera",
+    "canvas"
+  ],
+  "license": "MIT",
+  "name": "com.virtuoworks.cordova-plugin-canvascamera",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VirtuoWorks/CanvasCameraPlugin.git"
+  },
+  "version": "1.1.5"
+}
