@@ -19,7 +19,7 @@ phonon.options({
     localePreferred: 'pt'
     }
   })
-  let ui = phonon.navigator()
+  var ui = phonon.navigator();
 
       
   O('botaoInformacoesRetorna').addEventListener('click', function(){
