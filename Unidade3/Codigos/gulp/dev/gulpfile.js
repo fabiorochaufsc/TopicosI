@@ -123,7 +123,6 @@ gulp.task('js-final', function(){
 gulp.task('img', function(){
   gulp.src([img.source+'/*.*'])
   .pipe(gulp.dest(img.target))
-  .pipe(livereload());
 });
 
 
