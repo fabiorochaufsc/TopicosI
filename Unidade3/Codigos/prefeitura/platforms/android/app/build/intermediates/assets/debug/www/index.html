@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>ReclamAru</title>
+
+</head>
+
+<!-- Login screen -->
+
+<body>
+    <div id="loginscreen" class="page page-active">
+        <div class="painel-login">
+            <div class="login-header">
+                <h1>ReclamAru</h1>
+                <img src="img/logo.png" alt="">
+            </div>
+            <input type="text" class="form-login" placeholder="Insira seu Login">
+            <input type="password" class="form-login" placeholder="Insira sua Senha">
+            <div class="but">
+                <button id='enter' class="btn btn-primary targetPage targetForm" switchTo='#userscreen' switchForm='#reclamn'>Entrar</button>
+                <button class="btn btn-second targetPage" switchTo='#createUser'>Cadastrar</button>
+                <button id='fb' class="btnFooter targetPage" switchTo='#loadscreen'>Login com Facebook</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- load screen -->
+    <div id="loadscreen" class="page">
+        <img src="img/Blocks-1s-200px.svg" class="img-load">
+    </div>
+
+    <!-- User screen -->
+    <div id="userscreen" class="page">
+        <div class=instructions>
+            <div class="login-header">
+                <h1>ReclamAru</h1>
+            </div>
+            <div class="select">
+                <p>O quê você vai fazer?</p>
+            </div>
+            <div class="but-group">
+                <button class="btn btn-reclamn targetPage" switchTo='#reclamn'>Reclamar</button>
+                <button class="btn btn-search targetPage" switchTo='#search'>Pesquisar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Screen  -->
+    <div id="createUser" class="page">
+        <div class='instructions'>
+            <div class="login-header">
+                <h1>ReclamAru</h1>
+                <div class='int'>
+                    <p>Registre-se</p>
+                </div>
+            </div>
+            <div class='form-register'>
+                <input type="text" class="form-login" placeholder="Insira seu email">
+                <input type="text" class="form-login" placeholder="Insira Nome">
+                <input type="password" class="form-register" placeholder="Insira sua senha">
+            </div>
+            <div class="but-group">
+                <button class="btn btn-primary targetPage" switchTo='#loginscreen'>Cadastrar</button>
+                <button class="btn btn-second targetPage" switchTo='#loginscreen'>Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clain page -->
+    <div id="reclamn" class="page">
+        <div class='instructions'>
+            <div class="login-header">
+                <h1>ReclamAru</h1>
+                <div class='int'>
+                    <p>Reclame</p>
+                </div>
+            </div>
+            <div class='form-register'>
+                <p>Dê um título para reclamação</p>
+                <input id='titulo' type="text" class="form-login" placeholder="Título">
+                <p>Escreva uma observação</p>
+                <input id='descricao' type="text" class="form-login" placeholder="Descrição">
+                <div class='local'>
+                    <button id='gps' class="btn btn-local">Adicionar Localização</button>
+                </div>
+                <div class='pht'>
+                    <button id='camera' class="btn btn-photo">Adicionar
+                        Foto</button>
+                </div>
+                <div>
+                    <img class='photo-box' id="minhaImagem">
+                </div>
+                <div class="but-group">
+                    <button id='clain' class="btn btn-reclamn targetPage" switchTo='#loginscreen'>Reclamar</button>
+                    <button class="btn btn-second targetPage" switchTo='#userscreen'>Cancelar</button>
+                </div>
+            </div>
+        </div>
+</body>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script src="js/index.js"></script>
+
+</html>

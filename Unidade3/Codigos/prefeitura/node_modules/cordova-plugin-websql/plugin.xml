@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (c) Microsoft Open Technologies, Inc.  All Rights Reserved.
+ Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
+-->
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+           id="cordova-plugin-websql"
+      version="0.0.10">
+    <name>Web SQL plugin</name>
+
+    <description>Web Sql Plugin for Apache Cordova</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, websql, db, database</keywords>
+    <repo>https://github.com/msopentech/cordova-plugin-websql/</repo>
+    <issue>https://github.com/msopentech/cordova-plugin-websql/issues</issue>
+
+    <platform name="wp8">
+        <js-module src="www/WebSQL.js" name="WebSQL">
+            <merges target="window" />
+        </js-module>
+        <js-module src="www/wp8/Database.js" name="Database" />
+        <js-module src="www/wp8/SqlTransaction.js" name="SqlTransaction" />
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="WebSql">
+                <param name="wp-package" value="WebSql"/>
+            </feature>
+        </config-file>
+        <source-file src="src/wp/WebSql.cs" />
+        <source-file src="src/wp/SQLite.cs" />
+        <framework src="src/wp/Community.CsharpSqlite.WinPhone.dll" custom="true"/>
+    </platform>
+
+    <platform name="windows">
+        <js-module src="www/WebSQL.js" name="WebSQL">
+            <merges target="window" />
+        </js-module>
+        <js-module src="www/windows/Database.js" name="Database" />
+        <js-module src="www/windows/SqlTransaction.js" name="SqlTransaction" />
+
+        <framework src="src/windows/SQLite.Proxy/SQLite.Proxy.csproj"
+            custom="true" type="projectReference" target="all" />
+
+        <js-module src="src/windows/WebSqlProxy.js" name="WebSqlProxy">
+            <runs />
+        </js-module>
+    </platform>
+</plugin>

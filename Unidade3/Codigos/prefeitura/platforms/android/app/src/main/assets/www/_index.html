@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" 
+            content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; 
+            style-src 'self' 'unsafe-inline'; 
+            media-src *; 
+            script-src 'self' 'unsafe-inline';
+            img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <title>Take Pictures</title>
+        <style>
+            #btn{
+                font-size: 1.5rem;
+                line-height: 2.5rem;
+                margin: 1rem;
+            }
+            #msg{
+                border: 1px solid #eee;
+                padding: 1rem;
+                margin: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <p><img src="img/logo.png" alt="image" id="photo" /></p>
+            <p><button id="btn">Take Picture</button></p>
+            <p id="msg"></p>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script>
+            let app = {
+                init: function(){
+                    document.getElementById('btn').addEventListener('click', app.takephoto);
+                },
+                takephoto: function(){
+                    let opts = {
+                        quality: 80,
+                        destinationType: Camera.DestinationType.FILE_URI,
+                        sourceType: Camera.PictureSourceType.CAMERA,
+                        mediaType: Camera.MediaType.PICTURE,
+                        encodingType: Camera.EncodingType.JPEG,
+                        cameraDirection: Camera.Direction.BACK,
+                        targetWidth: 300,
+                        targetHeight: 400
+                    };
+                    
+                    navigator.camera.getPicture(app.ftw, app.wtf, opts);
+                },
+                ftw: function(imgURI){
+                    document.getElementById('msg').textContent = imgURI;
+                    document.getElementById('photo').src = imgURI;
+                    
+                },
+                wtf: function(msg){
+                    document.getElementById('msg').textContent = msg;
+                }
+            };
+            document.addEventListener('deviceready', app.init);
+        </script>
+    </body>
+</html>
