@@ -1,0 +1,2 @@
+
+Desenvolva uma aplicação de pizzaria onde seja possível o envio de notificações para os clientes que tiverem instalado o aplicativo móvel. O sistema deve apresentar as fotos de algumas pizzas que estão na promoção e seus precos. Para evitar o envioxxx

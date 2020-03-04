@@ -1,0 +1,7 @@
+
+Na universidade existe a necessidade de periodicamente realizar o levantamento dos bens permanentes na instituição. Os bens permanentes possuem uma etiqueta do tipo código de barras e possivelmente no futuro um QRcode. 
+
+Um funcionário deve anotar o número da etiqueta e o local onde o equipamento foi encontrado para registrar que o mesmo foi encontrado.
+
+
+O objetivo deste trabalho é criar uma aplicação que seja capaz de ler o código de barra e também um  QRcode e permitir que o usuário entre com algumas informações. Essas informações e o número da etiqueta são salvos na memoria do smartphone (possivelmente usando WebSQL) e após o término da operação de cadastramento (ao pressionar de um botão) os dados devem ser postados num servidor.

@@ -16,6 +16,6 @@
 VERSAO ALTERNATIVA:
 Caso ao inves de [1] seja utilizado outro plugin [2], o arquivo google-services.json devera ser colocaro em um diretório diferente. /platforms/android/app
 
-[2] phonegap-plugin-pushque esta na Unidade 3 utiliza esse plugin alternativo.
+[2] phonegap-plugin-push que esta na Unidade 3 utiliza esse plugin alternativo.
 
 O exemplo 

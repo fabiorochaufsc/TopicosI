@@ -1,0 +1,13 @@
+
+Titulo: Criação de um jogo de Xadrez
+
+Objetivo: Criar um jogo de Xadrez utilizando troca de mensagens entre um servidor implementado em Node e clientes (browsers) implementados em JS, HTML e CSS.
+
+Os clientes devem conectar no servidor Node, receber a relação dos demais clientes conectados. Depois, os clientes podem convidar outros clientes para jogar Xadrez. Quando o convite é aceito, em ambos browsers deve ser apresentado um tabuleiro de Xadrez (exemplo esta disponivel no site - como manipular o canvas). Quando um cliente faz uma jogada, a jogada é enviada para o servidor que a reenvia para os jogadores participantes (tal como desenvolvido em aula na aplicação de desenho das crianças). Ao receber a mensagem a tela de cada um dos jogadores sera atualizada para representar o novo status do jogo. 
+
+Individual ou em grupos de até 3 alunos.
+Data de apresentação: até o dia 25/5 (durante a aula)
+
+
+
+PS: O jogo não precisa saber nada de regras de Xadrez, ele serve apenas testar os conhecimentos de programação web/mobile desenvolvidos na disciplina. O jogo deve rodar no browser, não é necessário utilizar Cordova para criar uma app mobile.

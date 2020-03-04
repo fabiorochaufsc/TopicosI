@@ -3,15 +3,20 @@
 <body>
 
 
-<h1>Getting server updates</h1>
+<h1>Messages received</h1>
 <div id="result"></div>
 
+
+
 <script>
-var es = new EventSource("http://localhost:8080/sse");
-	es.onmessage = function(ev)
+var messages = new EventSource("http://localhost:8080/messages");
+
+	messages.onmessage = function(ev)
 	{
     	document.getElementById('result').innerHTML+="<BR>"+ev.data;
 	};
+
+	
 </script>
 
 </body>

@@ -1,0 +1,10 @@
+
+Desenvolver um aplicativo móvel que permite que o usuário registre uma reclamação para a prefeitura. O sistema deve permitir especificar o tipo de reclamação, anexar a localizacao GPS e/ou foto. Tipos de reclamação:
+
+1) Terreno sujo - o usuário pode inserir a localização GPS do local
+2) Lampada queimada - o usuário pode inserir a localização GPS do local
+3) vazamento de água - o usuário pode inserir a localização GPS do local
+4) carro estacionado incorretamente - o usuário pode inserir a localização GPS do local e fotografia da placa do veículo
+5) outras - o usuário pode inserir um texto descritivo e pode anexar foto e/ou localização.
+
+Todos os dados são enviados para um servidor onde são salvos num BD.

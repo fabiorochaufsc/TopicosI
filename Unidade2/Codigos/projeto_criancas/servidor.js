@@ -73,6 +73,9 @@ wss.on('connection', function connection(ws) {
 
     if (MSG.tipo=='LOGIN')
     {
+    	 ws.validado=true;
+    	 
+    	 return;
         //mostra o login
         console.log(MSG.value)
 

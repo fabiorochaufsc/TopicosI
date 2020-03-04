@@ -1,0 +1,10 @@
+Os alunos podem escolher entre o projeto1, projeto2, etc ou ainda propor o seu proprio projeto. Os que foram propor o seu projeto devem entrar em contato como professor e explicar o que desejam criar. Deve ser algo que utilize aplicações moveis e os conhecimentos vistos na disciplina.
+
+
+Grupos de ate 2 alunos.
+Apresentação para o professor ate dia 30/11 (Nao precisa ser em horário de aula), marque com o professor o dia/horario para apresentar. Quanto antes melhor.
+
+
+PS: Os alunos com smarphones velhos (usando Android 4.XX ) podem ter um webview antigo que nao suporta o ES6 (padrao mais novo do JS). Assim os seus códigos podem nao funcionar o seu celular. Coisas como declarar variáveis com 'let' ao invés de 'var' não funcionará. Teste se isso ocorre no seu código e troque as declarações. (existem sites online para converter codigo ES6 para ES5 automaticamente)
+
+ 
