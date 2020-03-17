@@ -19,6 +19,11 @@ Quando um elemento (digamos o cliente) envia uma mensagem por socket, a mensagem
 
 
 
-* Cliente
+* Cliente1
 
-> O cliente usa **new WebSocket('ws://localhost:8080');** para conectar no servidor que está rodando na própria máquina. Quando a conexão for estabelecida será executado o callback do evento **open** e toda a vez que o cliente receber uma mensagem será disparado o callback do **message**.
+> O cliente1 deve ser rodado de dentro do browser e usa **new WebSocket('ws://localhost:10000');** para conectar no servidor que está rodando na própria máquina. Quando a conexão for estabelecida será executado o callback do evento **open** e toda a vez que o cliente receber uma mensagem será disparado o callback do **message**.
+
+
+* Cliente2
+
+> O cliente2 deve ser rodado na linha de comando em node, conecta no servidor e retorna uma mensagem recebida deste
