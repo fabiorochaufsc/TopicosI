@@ -1,6 +1,9 @@
 const WebSocket = require('ws');
+const http = require('http');
 
-const wss = new WebSocket.Server({ port: 8080 },function (){
+
+
+const wss = new WebSocket.Server({ port: 10000 },function (){
 	console.log('rodando');
 });
 
@@ -9,5 +12,5 @@ wss.on('connection', function connection(ws) {
     console.log('received: %s', message);
   });
 
-  ws.send('something');
+  ws.send(JSON.stringify({valor:'something'}));
 });

@@ -14,8 +14,7 @@ function conectaServidorSockets (url)
     socket.onmessage = function(evt) {
 
        var tmp = evt.data;
-
-       tmp = JSON.parse(tmp);
+		tmp  = JSON.parse(tmp);
        document.getElementById('texto').innerHTML =document.getElementById('texto').innerHTML+'<br>'+tmp.valor; 
     }
 
@@ -28,7 +27,7 @@ function enviaMSG()
 }
 document.addEventListener("DOMContentLoaded", function(event) {
 
-  conectaServidorSockets('ws://'+window.location.hostname+':10000');
+  conectaServidorSockets('ws://localhost:10000');
 
   document.getElementById('botao').addEventListener('click',enviaMSG);
 
