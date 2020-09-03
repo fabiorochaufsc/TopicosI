@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="container"></div>
+<script src="../lib/qrcode.js"></script>
+<script>
+var qrcode = new QRCode({ content: "Hello World!", join: true });
+var svg = qrcode.svg();
+document.getElementById("container").innerHTML = svg;
+</script>
+</body>
+</html>
