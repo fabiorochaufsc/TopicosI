@@ -3,21 +3,25 @@ var app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, resp) {
-	
+
     console.log('Dentro da primeira parte');
 
-   
-    return resp.end();
+
+    return resp.send('oi mundo');
 });
 
 app.get('/hora', function(req, resp) {
+
+  console.log(req);
+
 	var d = new Date();
     console.log('Dentro da primeira da hora');
 
-	
+
        resp.write(d.toString());
     return resp.end();
 });
@@ -49,6 +53,6 @@ app.get(/^(.+)$/, function(req, res) {
     }
 })
 
-app.listen(3000, function() {
+app.listen(4000, function() {
     console.log("servidor no ar");
 });

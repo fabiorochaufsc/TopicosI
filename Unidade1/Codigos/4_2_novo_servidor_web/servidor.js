@@ -6,11 +6,12 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/public'));
 
 var valor=0;
+
 app.get('/', function(req, resp) {
-	
+
     console.log('Dentro da primeira parte');
 
-    resp.send('teste');  
+    resp.send('teste');
     return resp.end();
 });
 
@@ -18,7 +19,7 @@ app.get('/leiaSensor/:id', function(req, resp) {
    console.log('Retorna o valor do sensor'+req.params.id);
    resp.send('valor do sensor'+valor);
    valor=valor+1;
-   return resp.end();
+   resp.end();
 });
 
 ///  http://localhost:3000/sensores?temperatura=123
@@ -48,6 +49,6 @@ app.get(/^(.+)$/, function(req, res) {
     }
 })
 
-app.listen(3000, function() {
+app.listen(4000, function() {
     console.log("servidor no ar");
 });

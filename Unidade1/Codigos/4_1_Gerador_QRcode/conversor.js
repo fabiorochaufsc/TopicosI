@@ -12,7 +12,7 @@ var qrcode = new QRCode({
 });
 
 qrcode.save("sample.svg", function(error) {
-  if (error) throw error;
-  console.log("Done!");
+  if (error)  console.log('deu erro');
+  else   console.log("Done!");
 
 });

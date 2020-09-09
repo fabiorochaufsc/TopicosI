@@ -9,7 +9,8 @@ function teste ()
 		});
 		console.log(i);
 	}
-	
+
 
 }
 
+teste();
