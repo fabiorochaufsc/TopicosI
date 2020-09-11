@@ -2,9 +2,19 @@ const SSE = require("sse-node");
 var express = require('express');
 var appSSE      = express();
 var appCOMANDOS = express();
+const cors         = require('cors');
+var methodOverride = require ('method-override');
 
 
- 
+appCOMANDOS.use(cors()); //normal CORS
+appCOMANDOS.options("*", cors()); //preflight
+appCOMANDOS.use(methodOverride('X-HTTP-Method'));
+appCOMANDOS.use(methodOverride('X-HTTP-Method-Override'));
+appCOMANDOS.use(methodOverride('X-Method-Override'));
+appCOMANDOS.use(methodOverride('_method'));
+
+
+
 var vetorClientes=[];
 
 function Create2DArray(rows) {
@@ -26,37 +36,37 @@ appSSE.get("/registra", (req, res) => {
 	var cliente = SSE(req, res);
 	cliente.onClose(() => console.log("Cliente desconectou"));
     vetorClientes.push(cliente);
-   
+
 });
 
 appCOMANDOS.get("/COORDENADAS", (req, res) => {
 	console.log('Servidor recebeu');
 
-     console.log(req.query.conteudo);
+  var vet = [];
+  vet =  JSON.parse(req.query.conteudo);
+  console.log(vet);
 	for (let x=0;x < vetorClientes.length;x++)
 	{
-		vetorClientes[x].send(req.query.conteudo);
-		let vet = (req.query.conteudo);
-		console.log(vet[0]);
-		for (let a=0;a<vet;a++)
+
+
+		vetorClientes[x].send(JSON.stringify(vet));
+		for (let a=0;a<vet.length;a++)
 		{
-			//tela[vet[a].x][vet[a].y]=true;
 		}
-	//	console.log(tela);
 	}
   	 return res.end();
-  	
+
 });
 appCOMANDOS.get("/STATUS", (req, res) => {
 	console.log('Servidor recebeu pedido de STATUS');
-  
-	
+
+
   	 return res.end();
-  	
+
 });
- 
-  
-  		  
+
+
+
 
 appSSE.listen(8080);
 appCOMANDOS.listen(8081);

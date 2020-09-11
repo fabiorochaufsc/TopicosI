@@ -27,7 +27,7 @@ var coordenadas = [];
 
 
 document.body.addEventListener('mousedown',function(evento){
-	
+
 coordenadas=[];
 apertado=true;
 	 var x = evento.clientX - ctx.canvas.offsetLeft;
@@ -37,14 +37,14 @@ apertado=true;
 });
 
 document.body.addEventListener('mouseup',function(evento){
-	
+
 	     console.log('largou');
 
-	enviaAJAX('COORDENADAS',(coordenadas));
+	enviaAJAX('COORDENADAS',JSON.stringify(coordenadas));
 
 
     apertado=false;
-   	
+
 });
 
 
@@ -59,16 +59,16 @@ document.getElementById('areaDesenho').addEventListener('mousemove',function(eve
 	 	ctx.stroke();
      	coordenadas.push({x:x,y:y});
      }
-	
-	
+
+
 });
 
 function enviaAJAX (tipo,msg)
 {
 	var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-           
+
         }
     };
     xhttp.open("GET", "http://localhost:8081/"+tipo+"?conteudo="+msg, true);
@@ -86,12 +86,18 @@ var es = new EventSource("http://localhost:8080/registra");
 	es.onmessage = function(ev)
 	{
     	var vet = JSON.parse(ev.data);
+			console.log(vet[0])
+
+	ctx.beginPath();
     	ctx.moveTo(vet[0].x,vet[0].y);
     	for (let x=1; x<vet.length;x++)
     	{
+					//console.log(vet[x].x+'  '+vet[x].y)
     			ctx.lineTo(vet[x].x,vet[x].y);
+
     	}
-	 	ctx.stroke();
+			ctx.stroke();
+
 	};
 </script>
 
