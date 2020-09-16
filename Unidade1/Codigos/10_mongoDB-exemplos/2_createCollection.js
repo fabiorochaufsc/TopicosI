@@ -1,12 +1,28 @@
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/";
+var MongoClient = require('mongodb').MongoClient
+var url = 'mongodb://localhost:27017';
+var dbo;
 
-MongoClient.connect(url, function(err, db) {
-  if (err) throw err;
-  var dbo = db.db("testeAULA");
-  dbo.createCollection("Usuarios", function(err, res) {
-    if (err) throw err;
-    console.log("Collection created!");
-    db.close();
+
+MongoClient.connect(url, {useUnifiedTopology: true, useNewUrlParser: true}, function(err, db) {
+    if (err)
+    {
+      console.log('erro acessando BD');
+    }
+    dbo = db.db("AULA");
+
+
+   dbo.createCollection("Usuarios4", function(err2, res) {
+     console.log('a')
+    if (err2) {
+      console.log('erro criando colecao')
+    }
+    else {
+      console.log("Collection created!");
+    }
+
+
   });
+
+
+
 });
