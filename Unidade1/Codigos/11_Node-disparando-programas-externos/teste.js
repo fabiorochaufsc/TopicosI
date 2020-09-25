@@ -3,12 +3,14 @@ var cont = 0;
 
 
 exec('./teste', function (err, stdout, stderr) {
-    console.log(stdout);
+    console.log(stdout,stderr,err);
 });
 
 
+
+
 setInterval (function(){
-	console.log('rodando no node:'+cont);
+	//console.log('rodando no node:'+cont);
 	cont++;
 	if (cont==10)
 	{
@@ -18,4 +20,3 @@ setInterval (function(){
 	}
 
 },1000);
-

@@ -9,14 +9,34 @@
 
 
 <script>
+function GET (x)
+{
+	const xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      console.log(this.responseText);
+    }
+  };
+
+xhr.open('GET', x)
+xhr.send();
+}
 var messages = new EventSource("http://localhost:8080/messages");
 
+messages.onopen = function(ev)
+{
+		console.log('conectou')
+};
 	messages.onmessage = function(ev)
 	{
     	document.getElementById('result').innerHTML+="<BR>"+ev.data;
 	};
 
-	
+
+setInterval(function(){
+	GET("http://localhost:8080/teste");
+},3000);
+
 </script>
 
 </body>

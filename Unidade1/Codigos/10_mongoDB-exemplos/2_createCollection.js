@@ -11,7 +11,7 @@ MongoClient.connect(url, {useUnifiedTopology: true, useNewUrlParser: true}, func
     dbo = db.db("AULA");
 
 
-   dbo.createCollection("Usuarios4", function(err2, res) {
+   dbo.createCollection("Usuarios", function(err2, res) {
      console.log('a')
     if (err2) {
       console.log('erro criando colecao')

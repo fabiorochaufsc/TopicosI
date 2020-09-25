@@ -9,13 +9,13 @@ function conectaServidorSockets (url,  nome)
      socket = new ReconnectingWebSocket(url);
 
     socket.onopen = function(evt) {
-        console.log('Conectou no servidor'); 
+        console.log('Conectou no servidor');
         var m = {tipo:'login',valor:nome};
-        socket.send(JSON.stringify(m));   
+        socket.send(JSON.stringify(m));
 
     }
     socket.onclose = function(evt) {
-               console.log('foi desconectado do servidor');    
+               console.log('foi desconectado do servidor');
 
     }
     socket.onmessage = function(evt) {
@@ -28,21 +28,21 @@ function conectaServidorSockets (url,  nome)
           case 'todosUsuarios':
               console.log('todosUsuarios');
               console.log(tmp.valor);
-              
+
               for (let a=0;a<tmp.valor.length;a++)
               {
-                document.getElementById('lista-conectados').innerHTML =document.getElementById('lista-conectados').innerHTML+'<br>'+tmp.valor[a]; 
+                document.getElementById('lista-conectados').innerHTML =document.getElementById('lista-conectados').innerHTML+'<br>'+tmp.valor[a];
               }
               break;
 
           case 'usuarioNovo':
            console.log('usuarioNovo');
               console.log(tmp.valor);
-              document.getElementById('lista-conectados').innerHTML =document.getElementById('lista-conectados').innerHTML+'<br>'+tmp.valor; 
+              document.getElementById('lista-conectados').innerHTML =document.getElementById('lista-conectados').innerHTML+'<br>'+tmp.valor;
 
             break;
           case 'texto':
-              document.getElementById('texto').innerHTML =document.getElementById('texto').innerHTML+'<br>'+tmp.valor; 
+              document.getElementById('texto').innerHTML =document.getElementById('texto').innerHTML+'<br>'+tmp.valor;
 
             break;
        }
@@ -55,6 +55,10 @@ function enviaMSG()
     var m = {tipo:'MSG',valor:conteudo};
     socket.send(JSON.stringify(m));
 }
+
+
+
+
 function fazConexao()
 {
     O('identificacao').style.display='none';
