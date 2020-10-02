@@ -18,4 +18,6 @@ class Program
 
 
 
-new Program().print();
+var A = new Program();
+
+A.print();

@@ -1,23 +1,27 @@
 var async = require ('async')
 
+
 function shortTimeFunction(callback) {
   setTimeout(function() {
-    callback(null, 'resultOfShortTime');
-  }, 200);
+    console.log('funcao short terminou');
+    callback(null, 'resposta de 1');
+  }, 2000);
 }
 
 
 function mediumTimeFunction(callback) {
   setTimeout(function() {
-    callback(null, 'resultOfMediumTime');
-  }, 500);
+    console.log('funcao medium terminou');
+    callback(null, 'resposta de 2');
+  }, 5000);
 }
 
 
 function longTimeFunction(callback) {
   setTimeout(function() {
-    callback(null, 'resultOfLongTime');
-  }, 1000);
+    console.log('funcao long terminou');
+    callback(null, 'resposta de 3');
+  }, 10000);
 }
 
 async.parallel([shortTimeFunction, mediumTimeFunction, longTimeFunction],
@@ -27,3 +31,6 @@ function(err, results) {
   }
   console.log(results);
 });
+
+
+console.log('aqui...')

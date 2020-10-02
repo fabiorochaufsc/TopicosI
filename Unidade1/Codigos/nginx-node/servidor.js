@@ -1,7 +1,6 @@
 // Arquivo: servidor.js
  var express = require('express')
    , app = express();
- //app.use(express.static(__dirname + '/public'));
  
  app.get('/node', function(req, res){
  	console.log('O node esta tratando essa rota');
@@ -10,5 +9,5 @@
    res.send(html);
  });
 
- 
+
  app.listen(3000);
