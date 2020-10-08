@@ -1,0 +1,15 @@
+{
+  server: {
+     portWEB :5000
+  },
+   authEmail: {
+     host:  'smtp.gmail.com' ,
+     port: 465,
+     secure : true,
+     auth: {
+         user :  'escaninhos@gmail.com' ,
+         pass :  ''
+      }
+    },
+    nomeLoja:'Loja A melhor do Mundo'
+}

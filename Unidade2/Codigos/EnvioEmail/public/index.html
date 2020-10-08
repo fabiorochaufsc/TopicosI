@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+
+
+	</head>
+
+
+	<BODY>
+
+		<form action="/formularioEmail" method="post" enctype="application/json">
+		Nome:<br>
+		<input type="text" name="nome" required><br>
+		E-mail:<br>
+		<input type="text" name="email" required><br>
+		Título:<br>
+		<select name="subject" id="subject" required>
+  <option value="solicitacao">Solicitação</option>
+  <option value="duvida">Dúvida</option>
+  <option value="elogio">Elogio</option>
+  <option value="briga">Quebrar o barraco </option>
+</select><br>
+		Mensagem:<br>
+		<input type="text" name="msg" size="50" required><br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+		</form>
+
+	</BODY>
+
+</html>
