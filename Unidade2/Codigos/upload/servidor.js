@@ -14,8 +14,8 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
 	// leio bd
-  res.render('index', { title: 'Hey', message: 'Hello there!'+contador});
-	contador++;  
+  res.render('index', { title: 'Oi', message: 'Ola, tudo bem ??'+contador});
+	contador++;
 });
 
 
@@ -29,14 +29,14 @@ var form = new formidable.IncomingForm();
     form.parse(req, function (err, fields, files) {
     	console.log(fields);
     	//console.log(files);
-     
+
         console.log('nome temporario no servidor:'+files.filetoupload.path);
         mv(files.filetoupload.path, 'public/foto.png', function(err) {
   				    resp.redirect('/');
 
 		});
-		
-	});   
+
+	});
 
 });
 

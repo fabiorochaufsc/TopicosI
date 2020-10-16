@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Exemplo de uso de Mapa</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+
+
+</head>
+<body>
+
+
+
+<div id="mapid" style="width: 100%; height: 400px;"></div>
+<div id="coordenadas"></div>
+
+<div>
+		Nome: <input type="text" id="nome">
+		Localização: <span id="localizacaoSalva"></span>
+		<button id="envia"> Envia</button>
+</div>
+<script>
+	var coordenadasSalvas={lat:0, lng:0};
+	var coordenadas={lat:0, lng:0};
+	var mymap = L.map('mapid').setView([-28.951217, -49.467730], 18);
+	document.getElementById('coordenadas').innerHTML = 'lat('+coordenadas.lat+'), lng('+coordenadas.lng+')';
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: '',
+		id: 'mapbox.streets'
+	}).addTo(mymap);
+
+
+	function onClick(e) {
+	    alert(this.getLatLng());
+	}
+
+
+	document.getElementById('envia').addEventListener('click', function(){
+		let marcador = L.marker([coordenadasSalvas.lat, coordenadasSalvas.lng]);
+		marcador.nome=document.getElementById('nome').value;
+		marcador.bindTooltip(marcador.nome,{ permanent: true}).openTooltip();
+
+		console.log(marcador.nome)
+		marcador.addTo(mymap).on('mouseover', onClick);
+
+	},false);
+	mymap.addEventListener('mousemove', function(ev) {
+	   coordenadas.lat = ev.latlng.lat;
+	   coordenadas.lng = ev.latlng.lng;
+		 document.getElementById('coordenadas').innerHTML = 'lat('+coordenadas.lat+'), lng('+coordenadas.lng+')';
+	});
+
+	mymap.addEventListener('click', function(ev) {
+			coordenadasSalvas.lat = coordenadas.lat;
+			coordenadasSalvas.lng = coordenadas.lng;
+
+			document.getElementById('localizacaoSalva').innerHTML = 'lat('+coordenadas.lat+'), lng('+coordenadas.lng+')';
+
+	});
+
+</script>
+
+
+
+</body>
+</html>

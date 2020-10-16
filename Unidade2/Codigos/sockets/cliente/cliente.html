@@ -1,0 +1,39 @@
+
+<html>
+
+<script src="socket.io.js"></script>
+<script>
+  var socket = io('http://localhost:3000');
+
+  socket.on('connect', function(){
+    socket.emit('authentication', {username: "John", password: "secret"});
+  });
+
+  socket.on('authenticated', function(){
+    console.log("cliente foi autorizado");
+  });
+
+
+  socket.on('unauthorized', function(err){
+    console.log("Erro na autenticacao:", err.message);
+  });
+
+  socket.on('reconnecting', function(err){
+    console.log("reconectando...");
+  });
+
+  socket.on('msg', function(data){
+    console.log('recebeu mensagem '+JSON.stringify(data));
+  });
+
+  socket.on('disconnect', function(){
+    console.log('desconectou no servidor');
+  });
+
+</script>
+
+
+<body>
+</body>
+
+</html>
