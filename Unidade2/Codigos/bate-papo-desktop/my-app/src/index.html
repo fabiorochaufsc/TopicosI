@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Meu Bate-Papo</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Aplicativo de teste</h1>
+    <textarea id="areaMensagens"  rows="5" cols="33">
+
+    </textarea>
+
+    <p>Mensagem</p>
+
+    <input type="text" id="msg">
+    <button id="envia">Envia</button>
+
+    <script>
+    var ipc = require('electron').ipcRenderer;
+    ipc.send('inicio', '');
+    document.getElementById('areaMensagens').value='';
+
+
+    ipc.on('atualiza', function(event, response){
+
+        document.getElementById('areaMensagens').value+=response+'\n';
+        document.getElementById('areaMensagens').scrollTop = document.getElementById('areaMensagens').scrollHeight;
+
+    })
+
+
+var envia = document.getElementById('envia');
+envia.addEventListener('click', function(){
+
+
+    ipc.send('envia', document.getElementById('msg').value);
+});
+    </script>
+  </body>
+
+</html>
