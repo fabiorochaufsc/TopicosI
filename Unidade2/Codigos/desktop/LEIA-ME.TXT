@@ -1,0 +1,53 @@
+
+-------------------------------------------
+1) Crie um esqueleto de uma aplicação
+>> npx create-electron-app my-app
+-------------------------------------------
+
+-------------------------------------------
+2) Entre no diretorio do projeto
+>> cd my-app
+-------------------------------------------
+
+
+-------------------------------------------
+3) Teste o aplicativo exemplo
+>> npm start
+O resultado é um aplicativo que mostra as informações
+de debug (inspect) e também um menu horizontal
+-------------------------------------------
+
+-------------------------------------------
+4) Modifique o código para esconder o menu e as informações de debug
+edite o 'index.js' no diretório 'my-app/src' e deixe assim:
+>> cd src
+
+
+const mainWindow = new BrowserWindow({
+  width: 800,
+  height: 600,
+  webPreferences: {
+    devTools: false
+  }
+});
+mainWindow.setMenuBarVisibility(false)
+-------------------------------------------
+
+
+-------------------------------------------
+5) Teste novamente
+>> npm start
+-------------------------------------------
+
+
+
+-------------------------------------------
+6) Gere um instalador para o linux/macos/windows
+Se você estiver no linux será gerado um .deb e também um .rpm
+>> npm run make
+
+Entre no diretório out/make/deb/x64 (formato de pacote usado no meu sistema -- Ubuntu)
+>> cd out/make/deb/x64
+>> sudo dpkg -i my-app_1.0.0_amd64.deb
+
+-------------------------------------------

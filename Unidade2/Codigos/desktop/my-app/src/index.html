@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Meu Aplicativo</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Aplicativo de teste</h1>
+    <p>Entre com o nome de alguem e pressione o botão</p>
+
+    <input type="text" id="nome">
+    <button id="botao">ENTRA</button>
+
+    <script>
+    var ipc = require('electron').ipcRenderer;
+
+var botao = document.getElementById('botao');
+botao.addEventListener('click', function(){
+
+    ipc.once('LimpaCampo', function(event, response){
+        //processResponse(response);
+        document.getElementById('nome').value='';
+        alert('limpou os campos');
+    })
+    ipc.send('BotaoAtivado', document.getElementById('nome').value);
+});
+    </script>
+  </body>
+
+</html>

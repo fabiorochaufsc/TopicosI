@@ -7,6 +7,8 @@
 
   socket.on('connect', function(){
     socket.emit('authentication', {username: "John", password: "secret"});
+    socket.emit('entraSala', {id: "salaDisciplinaTOPICOS"});
+    socket.emit('listaSalas','');
   });
 
   socket.on('authenticated', function(){
@@ -23,7 +25,10 @@
   });
 
   socket.on('msg', function(data){
-    console.log('recebeu mensagem '+JSON.stringify(data));
+    console.log('recebeu mensagem adm:'+JSON.stringify(data));
+  });
+  socket.on('normal', function(data){
+    console.log('recebeu mensagem normal:'+JSON.stringify(data));
   });
 
   socket.on('disconnect', function(){

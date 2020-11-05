@@ -41,7 +41,7 @@ io.on('connection', (socket) => {
 
 // faz um broadcast periodico apenas para os usuarios validados
 setInterval(function(){
-  io.in('/validados').emit('msg', 'gg');
+  io.in('/validados').emit('normal', 'gg');
 
 },1000)
 
