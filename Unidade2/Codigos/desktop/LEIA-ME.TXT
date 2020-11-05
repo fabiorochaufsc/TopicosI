@@ -1,6 +1,10 @@
 
 -------------------------------------------
 1) Crie um esqueleto de uma aplicação
+
+>> mkdir my-electron-app && cd my-electron-app
+>> npm init -y
+>> npm i --save-dev electron
 >> npx create-electron-app my-app
 -------------------------------------------
 
