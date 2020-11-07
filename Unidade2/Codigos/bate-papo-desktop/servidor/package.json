@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "method-override": "^3.0.0",
     "sse-node": "^1.0.2",
-    "websocket": "^1.0.32"
+    "websocket": "^1.0.32",
+    "ws": "^7.3.1"
   }
 }
