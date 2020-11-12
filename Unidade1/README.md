@@ -42,6 +42,7 @@ Instalação do MongoDB
 
 ## Links
 [Tutoriais de NodeJS](https://nodeschool.io/#workshoppers)
+[Why JS is so popularhttps://opensource.com/article/20/11/javascript-popular?utm_campaign=intrel)
 
 ## Vídeos
 [O que é **event loop**, o que são **callbacks** ?](https://youtu.be/8aGhZQkoFbQ)

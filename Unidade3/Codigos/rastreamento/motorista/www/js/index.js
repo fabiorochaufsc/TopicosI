@@ -10,7 +10,7 @@ function envia(data)
   request = new XMLHttpRequest();
   
   if (request) {
-    request.open('POST', "http://frr-note.ignorelist.com:3000/funcao1" , true);
+    request.open('POST', "http://localhost:3000/funcao1" , true);
     request.setRequestHeader("Content-type", "application/json");    
     request.send( JSON.stringify(data) );
   }

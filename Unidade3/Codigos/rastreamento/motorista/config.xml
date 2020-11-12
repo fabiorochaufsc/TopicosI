@@ -27,6 +27,4 @@
         <param name="android-package" value="org.apache.cordova.GeoBroker" />
     </feature>
     <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
-    <engine name="android" spec="^7.1.1" />
-    <engine name="browser" spec="^5.0.4" />
 </widget>

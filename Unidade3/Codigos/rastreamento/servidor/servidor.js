@@ -2,81 +2,16 @@ var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://127.0.0.1:27017";
 
 var bancoDADOS;
-var clientes=[];
-
-
-const WebSocket = require('ws');
-
-const wss = new WebSocket.Server({ port: 3001 },function (){
-
-  console.log('Servidor de Clientes rodando na porta '+this.address().port);
-});
-
-wss.on('connection', function connection(ws) {
-  console.log('conectou');
-  clientes.push(ws);
-
-  ws.on('message', function incoming(message) {
-    var m = JSON.parse(message);
-
-    ws.monitorando = m.valor.ID;
-  });
-  ws.on('close', function () {
-      for (var a=0; a< clientes.length;a++)
-      {
-        if (ws == clientes[a])      clientes.splice(a, 1);
-
-      }
-  });
-
-});
-
-function enviaCliente (s, msg)
-{
-  try {
-    var msg2 = {MSG:'localizacao',ID:msg.ID,latitude:msg.latitude,longitude:msg.longitude};
-    s.send(JSON.stringify(msg2));
-  }catch(e)
-  {
-
-  }
-
-}
-setInterval (periodica, 3000);
-
-function periodica ()
-{
-  var van = []; 
-  // consulta o mongoDB e le todos os registros de vans
-  bancoDADOS.collection('localizacao').find("").toArray(function (err, result) {
-    if (err) throw err
-    if (result==undefined) console.log('nao existe usuario')
-    else 
-    {
-      for (var a = 0; a < result.length;a++)
-        {
-          van[result[a]._id]={latitude:result[a].latitude,longitude:result[a].longitude, timestamp:result[a].timestamp};
-
-        }
-      var tempo =Date.now();
-      for ( var c = 0; c< clientes.length;c++)
-      {
-        var ID = clientes[c].monitorando;
-        if (ID)
-        {
-          var diferencaTempo = tempo -  van[ID].timestamp;
-          enviaCliente(clientes[c], {ID:ID,latitude:van[ID].latitude,longitude:van[ID].longitude});
-        }
-        
-      }
-    }
-  })
-  
-}
 
 
 
-MongoClient.connect( url, {useNewUrlParser: true},function(err, db) {
+
+
+
+
+
+
+MongoClient.connect( url, {useUnifiedTopology: true, useNewUrlParser: true},function(err, db) {
   if (err) {
     console.log('nao consigo conectar no BD')
     process.exit(1);
@@ -115,7 +50,7 @@ app.get('/', function(request, response,next) {
   response.end();
 })
 
-app.post('/posicao', jsonParser, function(request, response,next) {
+app.post('/funcao1', jsonParser, function(request, response,next) {
 
 
   if (!request.body) return response.sendStatus(400)

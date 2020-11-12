@@ -1,4 +1,0 @@
-#Wed Oct 17 09:54:42 BRT 2018
-base.0=/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2018.2/Desenvolvimento_movel/publico/Unidade3/Codigos/rastreamento/motorista/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
