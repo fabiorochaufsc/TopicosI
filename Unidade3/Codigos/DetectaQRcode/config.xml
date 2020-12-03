@@ -25,5 +25,4 @@
     </platform>
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
     <plugin name="com.virtuoworks.cordova-plugin-canvascamera" spec="https://github.com/VirtuoWorks/CanvasCameraPlugin.git" />
-    <engine name="android" spec="^7.1.2" />
 </widget>

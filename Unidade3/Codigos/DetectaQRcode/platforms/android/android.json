@@ -9,15 +9,15 @@
         "parents": {
           "/*": [
             {
+              "xml": "<feature name=\"CanvasCamera\"><param name=\"android-package\" value=\"com.virtuoworks.cordova.plugin.canvascamera.CanvasCamera\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
               "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>",
               "count": 1
             },
             {
               "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"CanvasCamera\"><param name=\"android-package\" value=\"com.virtuoworks.cordova.plugin.canvascamera.CanvasCamera\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
             }
           ]
@@ -25,18 +25,6 @@
       },
       "AndroidManifest.xml": {
         "parents": {
-          "/*": [
-            {
-              "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-              "count": 1
-            }
-          ],
-          "application": [
-            {
-              "xml": "<provider android:authorities=\"${applicationId}.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"org.apache.cordova.camera.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/camera_provider_paths\" /></provider>",
-              "count": 1
-            }
-          ],
           "/manifest": [
             {
               "xml": "<uses-feature android:name=\"android.hardware.camera\" />",
@@ -60,24 +48,45 @@
               "xml": "<activity android:label=\"@string/app_name\" android:name=\"com.virtuoworks.cordova.plugin.canvascamera.CanvasCamera\" android:theme=\"@android:style/Theme.Black.NoTitleBar\"></activity>",
               "count": 1
             }
+          ],
+          "/*": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+              "count": 1
+            }
+          ],
+          "application": [
+            {
+              "xml": "<provider android:authorities=\"${applicationId}.provider\" android:exported=\"false\" android:grantUriPermissions=\"true\" android:name=\"org.apache.cordova.camera.FileProvider\"><meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"@xml/camera_provider_paths\" /></provider>",
+              "count": 1
+            }
           ]
         }
       }
     }
   },
   "installed_plugins": {
+    "com.virtuoworks.cordova-plugin-canvascamera": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "com.virtuoworks.cordova-plugin-canvascamera": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {},
   "modules": [
+    {
+      "id": "com.virtuoworks.cordova-plugin-canvascamera.CanvasCamera",
+      "file": "plugins/com.virtuoworks.cordova-plugin-canvascamera/www/CanvasCamera.js",
+      "pluginId": "com.virtuoworks.cordova-plugin-canvascamera",
+      "clobbers": [
+        "plugin.CanvasCamera",
+        "CanvasCamera"
+      ]
+    },
     {
       "id": "cordova-plugin-camera.Camera",
       "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
@@ -109,20 +118,11 @@
       "clobbers": [
         "CameraPopoverHandle"
       ]
-    },
-    {
-      "id": "com.virtuoworks.cordova-plugin-canvascamera.CanvasCamera",
-      "file": "plugins/com.virtuoworks.cordova-plugin-canvascamera/www/CanvasCamera.js",
-      "pluginId": "com.virtuoworks.cordova-plugin-canvascamera",
-      "clobbers": [
-        "plugin.CanvasCamera",
-        "CanvasCamera"
-      ]
     }
   ],
   "plugin_metadata": {
+    "com.virtuoworks.cordova-plugin-canvascamera": "1.1.5",
     "cordova-plugin-camera": "4.0.3",
-    "cordova-plugin-whitelist": "1.3.3",
-    "com.virtuoworks.cordova-plugin-canvascamera": "1.1.5"
+    "cordova-plugin-whitelist": "1.3.3"
   }
 }

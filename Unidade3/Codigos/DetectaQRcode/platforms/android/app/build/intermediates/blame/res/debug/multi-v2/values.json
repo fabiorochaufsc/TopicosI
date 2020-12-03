@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/frr/camera/camera/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2020.1/TopicosI/publico/Unidade3/Codigos/DetectaQRcode/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/home/frr/camera/camera/platforms/android/app/src/main/res/values/strings.xml",
+                    "source": "/home/frr/SYNC/Dropbox/Documentos_UFSC/disciplinas/2020.1/TopicosI/publico/Unidade3/Codigos/DetectaQRcode/platforms/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",

@@ -7,13 +7,13 @@
     "files": {}
   },
   "installed_plugins": {
+    "com.virtuoworks.cordova-plugin-canvascamera": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "com.virtuoworks.cordova-plugin-canvascamera": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
