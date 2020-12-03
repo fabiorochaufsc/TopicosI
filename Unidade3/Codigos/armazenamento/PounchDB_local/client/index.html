@@ -1,0 +1,18 @@
+<html>
+<script src="http://cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js"></script>
+<script>
+var inputDB = new PouchDB('http://192.168.0.111:3000/turtles');
+inputDB.put({
+  _id: 'mydoc4',
+  title: 'Heroes'
+}).then(function (response) {
+  // handle response
+}).catch(function (err) {
+  console.log(err);
+});
+
+
+</script>
+
+
+</html>

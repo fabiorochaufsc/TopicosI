@@ -1,0 +1,2 @@
+pouchdb-server -o 0.0.0.0 --port 3000 --dir ~/SYNC/Dropbox/Documentos_UFSC/disciplinas/2020.1/TopicosI/publico/Unidade3/Codigos/armazenamento/PouchDB-REMOTO/BancoDados
+
