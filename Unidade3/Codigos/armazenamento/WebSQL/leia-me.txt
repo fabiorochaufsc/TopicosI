@@ -1,0 +1,2 @@
+https://cordova.apache.org/docs/en/latest/cordova/storage/storage.html#websql
+

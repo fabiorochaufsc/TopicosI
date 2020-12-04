@@ -1,0 +1,14 @@
+2020/12/03-20:47:34.342775 7effc9ffb700 Recovering log #51
+2020/12/03-20:47:34.342795 7effc9ffb700 Level-0 table #53: started
+2020/12/03-20:47:34.343817 7effc9ffb700 Level-0 table #53: 237 bytes OK
+2020/12/03-20:47:34.348667 7effc9ffb700 Delete type=0 #51
+2020/12/03-20:47:34.348686 7effc9ffb700 Delete type=3 #49
+2020/12/03-20:47:34.348711 7effbb7fe700 Compacting 4@0 + 1@1 files
+2020/12/03-20:47:34.349943 7effbb7fe700 Generated table #55@0: 15 keys, 1124 bytes
+2020/12/03-20:47:34.349956 7effbb7fe700 Compacted 4@0 + 1@1 files => 1124 bytes
+2020/12/03-20:47:34.352119 7effbb7fe700 compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/12/03-20:47:34.352155 7effbb7fe700 Delete type=2 #53
+2020/12/03-20:47:34.352184 7effbb7fe700 Delete type=2 #50
+2020/12/03-20:47:34.352204 7effbb7fe700 Delete type=2 #42
+2020/12/03-20:47:34.352220 7effbb7fe700 Delete type=2 #47
+2020/12/03-20:47:34.352236 7effbb7fe700 Delete type=2 #44
