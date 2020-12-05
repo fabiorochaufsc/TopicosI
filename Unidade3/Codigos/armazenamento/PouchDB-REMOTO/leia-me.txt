@@ -1,4 +1,0 @@
-
-instale o servidor pouchDB em  https://github.com/pouchdb/pouchdb-server
-rode o servidor indicando onde o DB será salvo
-pouchdb-server -o 0.0.0.0 --port 3000 --dir DIRETORIO

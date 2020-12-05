@@ -2,14 +2,19 @@ var express     = require('express')
 var app         = express();
 var bodyParser  = require('body-parser');
 var http 				= require('http')
+var methodOverride = require ('method-override');
+var cors = require('cors')
 
 
-app.use(bodyParser.json()); 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  next();
-});
+app.use(cors()); //normal CORS
+app.options("*", cors()); //preflight
+app.use(methodOverride('X-HTTP-Method'));
+app.use(methodOverride('X-HTTP-Method-Override'));
+app.use(methodOverride('X-Method-Override'));
+app.use(methodOverride('_method'));
+
+app.use(bodyParser.json());
+
 
 
 app.post('/enviaQRCODE', function (req, resp) {
@@ -32,4 +37,4 @@ app.post('/outra', function (req, resp) {
 
 
 
-app.listen(8080);
+app.listen(7000);

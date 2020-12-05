@@ -16,7 +16,7 @@ function onDeviceReady() {
 
 
 inputDB.put({
-  _id: 'mydoc8',
+  _id: 'mydoc9',
   title: 'Heroes'
 }).then(function (response) {
 console.log('sucesso');
