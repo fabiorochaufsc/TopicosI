@@ -74,7 +74,7 @@ admin.messaging().sendToDevice(registrationToken, payload, options)
  }
 //setInterval (enviaUM, 5000);
 
-enviaUM();
+enviaTODOS();
 
 
 //enviaTODOS();
