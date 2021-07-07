@@ -1,0 +1,17 @@
+.idea/*
+*.iml
+*.log
+dist/
+etc/
+node_modules/
+tests/
+tmp/
+platforms/
+out/
+.travis.yml
+appveyor.yml
+Jenkinsfile
+*.md
+jsdoc.json
+karma.conf.js
+sample.png

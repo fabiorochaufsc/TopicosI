@@ -1,0 +1,120 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-email",
+      "/home/gabs/ReclamAru"
+    ]
+  ],
+  "_from": "cordova-plugin-email@latest",
+  "_id": "cordova-plugin-email@1.2.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-email",
+  "_nodeVersion": "6.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-email_1.2.7_1518816627351_0.6815386647695019"
+  },
+  "_npmUser": {
+    "email": "contact@martinreinhardt-online.de",
+    "name": "hypery2k"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-email",
+    "raw": "cordova-plugin-email",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-email/-/cordova-plugin-email-1.2.7.tgz",
+  "_shasum": "41955f2067f104bbba736162e476ed7d41670678",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-email",
+  "_where": "/home/gabs/ReclamAru",
+  "author": {
+    "name": "Martin Reinhardt"
+  },
+  "bugs": {
+    "url": "https://github.com/hypery2k/cordova-email-plugin/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-email",
+    "platforms": [
+      "amazon-fireos",
+      "android",
+      "ios",
+      "windows",
+      "wp8"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Email Plugin",
+  "devDependencies": {
+    "conventional-changelog-cli": "1.3.5",
+    "fs": "0.0.2",
+    "ink-docstrap": "1.3.2",
+    "jsdoc": "3.5.5",
+    "jsdoc-to-markdown": "3.0.3",
+    "karma": "2.0.0",
+    "karma-cordova-launcher": "0.0.10",
+    "xml2js": "0.4.19"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 20,
+    "shasum": "41955f2067f104bbba736162e476ed7d41670678",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-email/-/cordova-plugin-email-1.2.7.tgz",
+    "unpackedSize": 109366
+  },
+  "gitHead": "d68ad69c7d299b44d98588b027eb3d2f16c7c379",
+  "homepage": "https://github.com/hypery2k/cordova-email-plugin#readme",
+  "keywords": [
+    "cordova",
+    "cordova-amazon-fireos",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-wp8",
+    "ecosystem:cordova",
+    "email"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "hypery2k",
+      "email": "npm@martinreinhardt-online.de"
+    }
+  ],
+  "name": "cordova-plugin-email",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypery2k/cordova-email-plugin.git"
+  },
+  "scripts": {
+    "abc": "karma start karma.conf.js",
+    "build": "cd tmp/test-app && cordova platform add ${PLATFORM} && cordova plugin add ../.. && cordova build ${PLATFORM}",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog:add": "git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md'",
+    "clean": "rm -rf tmp && mkdir -p tmp",
+    "e2e": "cd tmp/cordova-demo-app/ && cordova build ${PLATFORM} && cd ../..",
+    "posttest": "jsdoc -c jsdoc.json && jsdoc2md www/email_composer.js | sed s/emailComposerPlugin/cordova.plugins.email/g | sed s/EmailComposerPlugin/cordova.plugins.email/g > PLUGIN_USAGE.MD && cd tmp/test-app && cordova plugin rm cordova-plugin-email-tests",
+    "prepare": "npm run clean && npm run setupAndroidSDK && npm run setupDemoApp",
+    "release:major": "npm version major && npm run release:pre && git push origin && git push origin --tags && npm run release:post && npm publish",
+    "release:minor": "npm version minor && npm run release:pre && git push origin && git push origin --tags && npm run release:post && npm publish",
+    "release:patch": "npm version patch && npm run release:pre && git push origin && git push origin --tags && npm run release:post && npm publish",
+    "release:post": "node etc/release.js && git add plugin.xml && git commit -m 'Update plugin' && npm run changelog && npm run changelog:add",
+    "release:pre": "npm run clean",
+    "setupAndroidSDK": "cd tmp && git clone https://github.com/simpligility/maven-android-sdk-deployer.git && cd maven-android-sdk-deployer/ && mvn install -P 6.0 && ls ~/.m2/repository/android/android/",
+    "setupDemoApp": "cd tmp && git clone https://github.com/apache/cordova-app-hello-world.git && mkdir test-app && cp -rp cordova-app-hello-world/template_src/* test-app && cd test-app && cordova plugin add cordova-plugin-device && cordova plugin add cordova-plugin-compat",
+    "test": "cd tmp/test-app && node ../../etc/prepare_test_app.js config.xml && cordova platform add ${PLATFORM} && cordova plugin add http://git-wip-us.apache.org/repos/asf/cordova-plugin-test-framework.git && cordova plugin add ../../tests && cordova build ${PLATFORM}"
+  },
+  "version": "1.2.7"
+}
