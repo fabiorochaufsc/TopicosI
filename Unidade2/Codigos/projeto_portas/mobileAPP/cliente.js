@@ -5,26 +5,37 @@ var websocket
 
 function startConnection () {
   websocket = new ReconnectingWebSocket(servidorWebserver)
-  websocket.onopen = function (evt) { onOpen(evt) }
-  websocket.onclose = function (evt) { onClose(evt) }
-  websocket.onmessage = function (evt) { onMessage(evt) }
-  websocket.onerror = function (evt) { onError(evt) }
-}
+  websocket.onopen = function (evt) { 
+    console.log('Esta conectado no servidor');
+   }
+  websocket.onclose = function (evt) { 
+    console.log('Foi desconectado do servidor');
 
-function onOpen (evt) {
-  console.log('onOpen')
-}
-function onClose (evt) {
-}
+  }
+  websocket.onmessage = function (evt) { 
+    console.log('Recebeu mensagem');
+    let msg = JSON.parse(evt.data);
 
-function onMessage (evt) {
-  var msg = evt.data
-  console.log(msg)
-}
+    console.log('Mostrando salas')
+    for (let a = 0 ; a< msg.salas.length; a++)
+    {
+      console.log(msg.salas[a])
+      let btn = document.createElement("button");
+      btn.innerHTML = "Sala "+msg.salas[a];
+      btn.addEventListener('click',function(){
+        console.log('Solicita a abertuda da sala '+msg.salas[a])
+        websocket.send(JSON.stringify({tipo:'abre', identificacaoPorta:msg.salas[a]}));
+      },false);
+      document.body.appendChild(btn);
+
+    }
 
 
 
-function onError (evt) {
+   }
+  websocket.onerror = function (evt) { 
+    console.log('Erro desconhecido')
+  }
 }
 
 function O(id)

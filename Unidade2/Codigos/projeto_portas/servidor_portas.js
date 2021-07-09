@@ -5,6 +5,7 @@ var url = 'mongodb://localhost:27017'
 var dbo;
 var usuarios = require('./usuarios.js');
 
+var fechaduras=[];
 
 MongoClient.connect(url, {useUnifiedTopology: true, useNewUrlParser: true}, function(err, db) {
   if (err) throw err
@@ -30,8 +31,29 @@ wss.on('connection', function (ws) {
 		message = JSON.parse(message)
 		switch (message.tipo)
 		{
-				
-					
+				case 'loginFechadura':
+						console.log('recebeu credenciais de uma fechadura');
+						console.log(message.id);
+						console.log(message.passwd);
+						ws.fechadura=1;
+						ws.id = message.id;
+						fechaduras.push(ws);
+					break;
+				case 'abre':
+						if (ws.validado)
+						{
+							console.log(message.identificacaoPorta);
+							for (let a=0; a<fechaduras.length;a++)
+							{
+								if (fechaduras[a].id == message.identificacaoPorta)
+								{
+									fechaduras[a].send(JSON.stringify({tipo:'abre'}));
+								}
+							}
+
+						}
+						else ws.close();
+					break;	
 				case 'login':
 						usuarios.validaUsuario(dbo, message.id ,message.passwd, function (erro,msg){
 							if (erro)
