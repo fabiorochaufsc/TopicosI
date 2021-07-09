@@ -27,7 +27,7 @@ wss.on('connection', function (ws) {
 	ws.validado=0;
 
   ws.on('message', function incoming(message) {
-
+		console.log(message)
 		message = JSON.parse(message)
 		switch (message.tipo)
 		{
