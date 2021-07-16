@@ -5,13 +5,20 @@ var fs = require('fs');
 console.log('oi mundo');
 
 
-fs.readFile('index.html', function(erro, arquivo){
-	if (erro) 
-  {
-    console.log("Erro")
-  }
-  else console.log('lido '+arquivo);
-});
+function roda (erro, arquivo)
+{
+    if (erro) 
+    {
+      console.log("Erro")
+    }
+    else console.log('lido '+arquivo);
+
+}
+
+fs.readFile('index.html', roda);
+
+
+
 
 console.log('AQUI');
 

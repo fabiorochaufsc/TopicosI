@@ -6,9 +6,12 @@ MongoClient.connect(url, {useUnifiedTopology: true, useNewUrlParser: true}, func
   if (err) throw err;
   var dbo = db.db("AULA");
 
-  dbo.collection("Usuarios4").drop(function(err, delOK) {
-    if (err) throw err;
-    if (delOK) console.log("Collection deleted");
+  dbo.collection("novo").drop(function(err, delOK) {
+    if (err) 
+    {
+      console.log('erro apagando colecao que nao existe');
+    }
+    else  if (delOK) console.log("Collection deleted");
     db.close();
   });
 });

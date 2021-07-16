@@ -1,17 +1,17 @@
 var express = require('express')
 var app = express();
-var bodyParser = require('body-parser');
-app.use(bodyParser.json());
-
 
 app.use(express.static(__dirname + '/public'));
+
+
+
 
 app.get('/', function(req, resp) {
 
     console.log('Dentro da primeira parte');
 
 
-    return resp.send('oi mundo');
+    resp.send('oi mundo');
 });
 
 app.get('/hora', function(req, resp) {
@@ -22,7 +22,7 @@ app.get('/hora', function(req, resp) {
     console.log('Dentro da primeira da hora');
 
 
-       resp.write(d.toString());
+       resp.send(d.toString());
     return resp.end();
 });
 

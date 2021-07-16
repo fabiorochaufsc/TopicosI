@@ -5,7 +5,7 @@ MongoClient.connect(url, {useUnifiedTopology: true, useNewUrlParser: true}, func
   if (err) throw err;
   var dbo = db.db("AULA");
 
-  var myquery = { nome: /^Luis/ };
+  var myquery = { nome: /^Luiz/ };
   dbo.collection("Usuarios").deleteMany(myquery, function(err, obj) {
     if (err) throw err;
     console.log(obj.result.n + " document(s) deleted");

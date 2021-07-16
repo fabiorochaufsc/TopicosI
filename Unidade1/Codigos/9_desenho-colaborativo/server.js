@@ -68,5 +68,5 @@ appCOMANDOS.get("/STATUS", (req, res) => {
 
 
 
-appSSE.listen(8080);
+appSSE.listen(8000);
 appCOMANDOS.listen(8081);

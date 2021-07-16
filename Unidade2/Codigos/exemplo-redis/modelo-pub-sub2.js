@@ -10,6 +10,7 @@ subscriber.on('connect', function() {
 
 subscriber.on("message", function(channel, message) {
 
+  console.log(channel)
   switch (channel)
   {
     case 'adm':
@@ -17,10 +18,15 @@ subscriber.on("message", function(channel, message) {
       break;
     case 'erro':
       console.log('recebeu erro: '+message);
+      break;
+    case 'log':
+        console.log('recebeu log: '+message);
+
 
   }
 
 });
 
-subscriber.subscribe("adm");
-subscriber.subscribe("erro");
+
+subscriber.subscribe("log");
+

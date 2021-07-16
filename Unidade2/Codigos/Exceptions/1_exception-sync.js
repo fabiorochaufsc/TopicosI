@@ -4,6 +4,7 @@
 
 function minhaFuncao ()
 {
+    
     return A;
 
 }

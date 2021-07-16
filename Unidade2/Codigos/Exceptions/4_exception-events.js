@@ -7,7 +7,15 @@ function minhaFuncao ()
 	let meuEvento = new EventEmitter();
 	
   setTimeout(function(){
-  	meuEvento.emit('erro',new Error('deu problema'));
+
+		try {
+			return A;
+		}
+		catch (e)
+		{
+			meuEvento.emit('erro',new Error('deu problema'));
+
+		}
   },4000);
   return meuEvento;
 

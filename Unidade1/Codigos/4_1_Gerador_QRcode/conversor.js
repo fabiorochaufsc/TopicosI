@@ -11,8 +11,13 @@ var qrcode = new QRCode({
   ecl: "M",
 });
 
+
+
+
+
 qrcode.save("sample.svg", function(error) {
   if (error)  console.log('deu erro');
   else   console.log("Done!");
 
 });
+

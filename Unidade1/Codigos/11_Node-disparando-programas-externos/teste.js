@@ -8,15 +8,9 @@ exec('./teste', function (err, stdout, stderr) {
 
 
 
+setTimeout ( function(){
+	exec('killall teste', function (err, stdout, stderr) {
+	});
 
-setInterval (function(){
-	//console.log('rodando no node:'+cont);
-	cont++;
-	if (cont==10)
-	{
-		exec('killall teste', function (err, stdout, stderr) {
-    	});
+},10000);
 
-	}
-
-},1000);

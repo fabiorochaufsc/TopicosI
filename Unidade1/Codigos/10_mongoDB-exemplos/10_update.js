@@ -7,7 +7,7 @@ MongoClient.connect(url, {useUnifiedTopology: true, useNewUrlParser: true}, func
   var dbo = db.db("AULA");
 
   var newpass="gato";
-  var myquery = {_id:'fabio' };
+  var myquery = {_id:'frr' };
   var newvalues = { $set: {password: newpass} };
 
   dbo.collection("Usuarios").updateOne(myquery, newvalues, function(err, res) {

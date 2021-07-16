@@ -1,5 +1,7 @@
 function Droid() {}
+
 var teste = new Droid();
+
 Droid.prototype.retorna   = function() {return this.lingua;};
 Droid.prototype.configura = function(x) {this.lingua = x;};
 

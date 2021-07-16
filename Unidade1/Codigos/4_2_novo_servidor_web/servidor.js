@@ -1,7 +1,5 @@
 var express = require('express')
 var app = express();
-var bodyParser = require('body-parser');
-app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
 
@@ -16,7 +14,7 @@ app.get('/', function(req, resp) {
 });
 
 app.get('/leiaSensor/:id', function(req, resp) {
-   console.log('Retorna o valor do sensor'+req.params.id);
+   console.log('Retorna o valor do sensor '+req.params.id);
    resp.send('valor do sensor'+valor);
    valor=valor+1;
    resp.end();

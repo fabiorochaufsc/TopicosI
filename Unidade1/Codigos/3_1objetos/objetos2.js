@@ -1,7 +1,8 @@
-function Droid(msg)
+function Droid(ID)
 {
-    this.nome = msg;
-    this.contador=0;
+    this.nome = ID.nome;
+    this.contador=ID.idade;
+    console.log('teste');
 }
 
 Droid.prototype.retorna   = function() {
@@ -14,7 +15,7 @@ Droid.prototype.configura = function(x) {
 };
 
 
-var teste = new Droid('oi');
+var teste = new Droid({nome:'fabio',idade:43});
 
 
 teste.configura('portugues');

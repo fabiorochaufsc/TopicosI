@@ -6,9 +6,12 @@ publisher.on('connect', function() {
     console.log('conectou no servidor redis');
 });
 
-
+var x=0
 setTimeout(function(){
 
-  publisher.publish("log", "iniciou aplicacao");
+  console.log('envia')
+  publisher.publish("log", x);
+  x++;
 
-},6000);
+
+},1000);

@@ -1,17 +1,14 @@
 {
-  "name": "upload",
+  "name": "4_1_gerador_qrcode",
   "version": "1.0.0",
   "description": "",
-  "main": "servidor.js",
+  "main": "conversor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "formidable": "^1.2.2",
-    "mv": "^2.1.1",
-    "pug": "^3.0.0"
+    "qrcode-svg": "^1.1.0"
   }
 }

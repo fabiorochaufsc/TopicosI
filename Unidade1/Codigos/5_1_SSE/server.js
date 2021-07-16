@@ -1,4 +1,4 @@
-const SSE   = require("sse-node");
+const SSE   = require("sse-node");   
 var express = require('express')
 var app     = express()
 
@@ -32,11 +32,15 @@ app.get("/messages", (req, res) => {
           console.log('tamanho='+vetorClientes.length);
 
   		try {
-  			vetorClientes.forEach(function(elemento, posicao, vetor){
-          let dados = {type:'location',value:"teste123" };
-  				elemento.send(dados);
-  			});
 
+        for (let x=0;vetorClientes.length;x++)
+        {
+          let dados = {type:'location',value:"teste123" };
+          vetorClientes[x].send(dados)
+        }
+
+
+  			
     	}
     	catch(e)
     	{}
@@ -44,4 +48,4 @@ app.get("/messages", (req, res) => {
 
 
 
-app.listen(8080);
+app.listen(4000);

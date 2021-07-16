@@ -6,7 +6,7 @@ function minhaFuncao ()
 {
   setTimeout(function(){
     return A;
-  },2000);
+  },20000);
 
 }
 
@@ -17,3 +17,5 @@ catch (e)
 {
   console.log('detectou problema na funcao');
 }
+
+console.log('aqui')

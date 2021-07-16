@@ -1,5 +1,5 @@
 
-var servidorWebserver= 'ws://localhost:8080'
+var servidorWebserver= 'ws://localhost:8000'
 
 var websocket
 
